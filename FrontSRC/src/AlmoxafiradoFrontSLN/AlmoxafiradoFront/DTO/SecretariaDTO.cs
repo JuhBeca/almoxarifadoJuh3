@@ -1,8 +1,7 @@
-﻿namespace AlmoxarifadoBackAPI.DTO
+﻿namespace AlmoxafiradoFront.DTO
 {
-    public class SecretariaCadastroDTO
+    public class SecretariaDTO
     {
-
         public string NomeSec { get; set; }
         public string EndereçoSec { get; set; }
         public string Bairro { get; set; }
