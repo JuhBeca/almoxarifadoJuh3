@@ -13,7 +13,7 @@ namespace AlmoxarifadoBackAPI.Repositorio
 
         public void Add(Produto obj)
         {
-            
+
             _db.Produto.Add(obj);
             _db.SaveChanges();
         }
