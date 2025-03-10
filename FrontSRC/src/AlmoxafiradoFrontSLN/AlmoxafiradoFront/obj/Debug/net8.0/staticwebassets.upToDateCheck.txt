@@ -1,4 +1,5 @@
 wwwroot\css\categoria.css
+wwwroot\css\produtos.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

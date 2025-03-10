@@ -34,7 +34,7 @@ namespace AlmoxarifadoBackAPI.Controllers
         {
 
             var novaCategoria = new Categoria()
-            {               
+            {
                 Descricao = categoria.Descricao
             };
             //_categorias.Add(novaCategoria);

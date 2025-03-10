@@ -39,7 +39,7 @@ namespace AlmoxarifadoBackAPI.Controllers
 
             };
             //_categorias.Add(novaCategoria);
-            _db.Add(novaCategoria);
+            _db.Add(novoFornecedor);
             return Ok("Cadastro com Sucesso");
         }
     }
