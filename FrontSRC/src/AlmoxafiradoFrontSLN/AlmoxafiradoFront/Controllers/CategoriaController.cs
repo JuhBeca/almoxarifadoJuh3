@@ -17,8 +17,8 @@ namespace AlmoxafiradoFront.Controllers
                 HttpResponseMessage response =  client.GetAsync(url).Result ;
                 response.EnsureSuccessStatusCode();
                 string json =  response.Content.ReadAsStringAsync().Result;
-                 categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json); 
-                 ViewBag.Categorias = categorias;
+                 categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
+                 ViewBag.Categoria = categorias;
 
 
             }
