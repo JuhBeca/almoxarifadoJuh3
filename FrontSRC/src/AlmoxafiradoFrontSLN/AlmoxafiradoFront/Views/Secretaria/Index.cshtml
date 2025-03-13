@@ -1,0 +1,68 @@
+﻿<div id="container" class="containerSecretaria">
+    <div class="container1Secretaria">
+        <div>
+            <button class="btnSecretaria">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Secretaria">
+        <table class="TableContainerSecretaria">
+            <thead class="theadSecretaria">
+            <th>
+               NomeSec
+            </th>
+            <th>
+                EndereçoSec
+            </th>
+            <th>
+                Bairro
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
+                EstadoSigla
+            </th>
+            <th>
+                Telefone
+            </th>
+            <th>
+                CNPJ
+            </th>
+            </thead>
+            <tbody>
+
+                @if ( ViewBag.Secretaria != null)
+                {
+                    <tr>
+                        <td class="tdSecretaria">NomeSec</td>
+                        <td class="tdSecretaria">EnderecoSec</td>
+                        <td class="tdSecretaria">Bairro</td>
+                        <td class="tdSecretaria">.Cidade</td>
+                        <td class="tdSecretaria">EstadoSigla</td>
+                        <td class="tdSecretaria">Telefone</td>
+                        <td class="tdSecretaria">CNPJ</td>
+                        <td class="tdSecretaria">
+                            <div class="IconesContainerSecretaria">
+                                <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
+                                <div class="Icone2Secretaria">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Secretaria">
+        <div>
+            <button class="btnSecretaria BtnAzulColorSecretaria">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>

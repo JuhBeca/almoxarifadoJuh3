@@ -1,0 +1,66 @@
+﻿<div id="container" class="containerFornecedor">
+    <div class="container1Fornecedor">
+        <div>
+            <button class="btnFornecedor">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Fornecedor">
+        <table class="TableContainerFornecedor">
+            <thead class="theadFornecedor">
+            <th>
+                Código
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Telefone
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
+                CNPJ
+            </th>
+
+            </thead>
+            <tbody>
+
+                @if ( ViewBag.Fornecedor != null)
+                {
+                    <tr>
+                        <td class="tdFornecedor">codigo</td>
+                        <td class="tdFornecedor">Nome</td>
+                        <td class="tdFornecedor">Telefone</td>
+                        <td class="tdFornecedor">Estado</td>
+                        <td class="tdFornecedor">Cidade</td>
+                        <td class="tdFornecedor">CNPJ</td>
+                        <td class="tdFornecedor">
+                            <div class="IconesContainerFornecedor">
+                                <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
+                                <div class="Icone2Fornecedor">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Fornecedor">
+        <div>
+            <button class="btnFornecedor BtnAzulColorFornecedor">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>
+

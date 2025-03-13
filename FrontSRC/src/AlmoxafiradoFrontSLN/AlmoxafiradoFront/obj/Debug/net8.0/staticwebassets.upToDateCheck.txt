@@ -1,5 +1,9 @@
 wwwroot\css\categoria.css
+wwwroot\css\entrada.css
+wwwroot\css\fornecedor.css
 wwwroot\css\produtos.css
+wwwroot\css\saida.css
+wwwroot\css\secretaria.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Imagens\trash.svg

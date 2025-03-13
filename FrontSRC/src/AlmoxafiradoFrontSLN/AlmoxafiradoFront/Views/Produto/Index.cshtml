@@ -1,0 +1,66 @@
+﻿<div id="container" class="containerProduto">
+    <div class="container1Produto">
+        <div>
+            <button class="btnProduto">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Produto">
+        <table class="TableContainerProduto">
+            <thead class="theadProduto">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                UnidadeMedida
+            </th>
+            <th>
+                EstoqueAtual
+            </th>
+            <th>
+                Epermanente
+            </th>
+            <th>
+                CódigoCategoria
+            </th>
+
+            </thead>
+            <tbody>
+
+                @if ( ViewBag.Produto != null)
+                {
+                    <tr>
+                        <td class="tdProduto">codigo</td>
+                        <td class="tdProduto">Descricao</td>
+                        <td class="tdProduto">UnidadeMedida</td>
+                        <td class="tdProduto">EstoqueAtual</td>
+                        <td class="tdProduto">Epermanente</td>
+                        <td class="tdProduto">CodigoCategoria</td>
+                        <td class="tdProduto">
+                            <div class="IconesContainerProduto">
+                                <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
+                                <div class="Icone2Produto">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Produto">
+        <div>
+            <button class="btnProduto BtnAzulColorProduto">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>
+

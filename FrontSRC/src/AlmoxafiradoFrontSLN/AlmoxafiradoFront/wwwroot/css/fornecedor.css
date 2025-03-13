@@ -1,0 +1,95 @@
+﻿.containerFornecedor {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1Fornecedor {
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.container2Fornecedor {
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+}
+
+.container3Fornecedor {
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnFornecedor {
+    padding: 0.3rem;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+.BtnAzulColorFornecedor {
+    background-color: cyan !important;
+}
+
+.theadFornecedor {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.TableContainerFornecedor {
+    width: 100%;
+    font-size: 15pt !important;
+}
+
+    .TableContainerFornecedortd, th {
+        border: 1px solid black;
+    }
+
+.tdFornecedor {
+    background-color: white;
+    color: black;
+}
+
+.Icone1Fornecedor {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Icone2Fornecedor {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.IconesContainerFornecedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .containerFornecedor {
+        width: 82%;
+    }
+}

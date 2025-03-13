@@ -21,11 +21,11 @@
             </thead>
             <tbody>
            
-                @foreach (var item in ViewBag.Categoria)
+                @if (ViewBag.Categoria != null)
                 {
                     <tr>
-                        <td class="tdCategoria">@item.codigo</td>
-                        <td class="tdCategoria">@item.descricao</td>
+                        <td class="tdCategoria">codigo</td>
+                        <td class="tdCategoria">descricao</td>
                         <td class="tdCategoria">
                             <div class="IconesContainerCategoria">
                                 <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
