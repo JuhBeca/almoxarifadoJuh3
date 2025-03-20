@@ -1,9 +1,8 @@
 ﻿<div id="container" class="containerEntrada">
     <div class="container1Entrada">
         <div>
-            <button class="btnEntrada">
-                Novo
-            </button>
+            <a class="btn btn-success" href="/Entrada/Create"> Novo</a>
+            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
         </div>
     </div>
     <div class="container2Entrada">
@@ -23,23 +22,23 @@
             </th>
             </thead>
             <tbody>
-
-                @if (ViewBag.Entrada != null)
+                @if (ViewBag.Produto != null){
+                @foreach (var item in ViewBag.Entrada)
                 {
                     <tr>
-                        <td class="tdEntrada">codigo</td>
-                        <td class="tdEntrada">descricao</td>
-                        <td class="tdEntrada">quantidadeatual</td>
-                        <td class="tdEntrada">dataentrada</td>
+                        <td class="tdEntrada">@item.codigo</td>
+                        <td class="tdEntrada">@item.descricao</td>
+                        <td class="tdEntrada">@item.quantidadeatual</td>
+                        <td class="tdEntrada">@item.dataentrada</td>
                         <td class="tdEntrada">
                             <div class="IconesContainerEntrada">
                                 <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <div class="Icone2Entrada">
-                                </div>
+                                <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
                             </div>
                         </td>
                     </tr>
 
+                }
                 }
             </tbody>
 
@@ -48,9 +47,7 @@
     </div>
     <div class="container3Entrada">
         <div>
-            <button class="btnEntrada BtnAzulColorEntrada">
-                Voltar
-            </button>
+            
         </div>
     </div>
 </div>

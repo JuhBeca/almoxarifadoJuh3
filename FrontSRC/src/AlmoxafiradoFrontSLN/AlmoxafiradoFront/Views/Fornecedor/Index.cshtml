@@ -1,9 +1,8 @@
 ﻿<div id="container" class="containerFornecedor">
     <div class="container1Fornecedor">
         <div>
-            <button class="btnFornecedor">
-                Novo
-            </button>
+            <a class="btn btn-success" href="/Fornecedor/Create"> Novo</a>
+            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
         </div>
     </div>
     <div class="container2Fornecedor">
@@ -30,25 +29,24 @@
 
             </thead>
             <tbody>
-
-                @if ( ViewBag.Fornecedor != null)
+                @if (ViewBag.Produto != null){
+                @foreach (var item in ViewBag.Fornecedor)
                 {
                     <tr>
-                        <td class="tdFornecedor">codigo</td>
-                        <td class="tdFornecedor">Nome</td>
-                        <td class="tdFornecedor">Telefone</td>
-                        <td class="tdFornecedor">Estado</td>
-                        <td class="tdFornecedor">Cidade</td>
-                        <td class="tdFornecedor">CNPJ</td>
+                        <td class="tdFornecedor">@item.codigo</td>
+                        <td class="tdFornecedor">@item.Nome</td>
+                        <td class="tdFornecedor">@item.Telefone</td>
+                        <td class="tdFornecedor">@item.Estado</td>
+                        <td class="tdFornecedor">@item.Cidade</td>
+                        <td class="tdFornecedor">@item.CNPJ</td>
                         <td class="tdFornecedor">
                             <div class="IconesContainerFornecedor">
                                 <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <div class="Icone2Fornecedor">
-                                </div>
-                            </div>
+                                <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
                         </td>
                     </tr>
 
+                }
                 }
             </tbody>
 
@@ -57,9 +55,7 @@
     </div>
     <div class="container3Fornecedor">
         <div>
-            <button class="btnFornecedor BtnAzulColorFornecedor">
-                Voltar
-            </button>
+            
         </div>
     </div>
 </div>

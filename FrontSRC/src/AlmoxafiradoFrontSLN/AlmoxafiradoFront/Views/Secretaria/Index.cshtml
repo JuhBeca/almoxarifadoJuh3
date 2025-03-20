@@ -1,9 +1,8 @@
 ﻿<div id="container" class="containerSecretaria">
     <div class="container1Secretaria">
         <div>
-            <button class="btnSecretaria">
-                Novo
-            </button>
+            <a class="btn btn-success" href="/Secretaria/Create"> Novo</a>
+            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
         </div>
     </div>
     <div class="container2Secretaria">
@@ -32,26 +31,26 @@
             </th>
             </thead>
             <tbody>
-
-                @if ( ViewBag.Secretaria != null)
+                @if (ViewBag.Produto != null){
+                @foreach (var item in ViewBag.Secretaria )
                 {
                     <tr>
-                        <td class="tdSecretaria">NomeSec</td> 
-                        <td class="tdSecretaria">EnderecoSec</td>
-                        <td class="tdSecretaria">Bairro</td>
-                        <td class="tdSecretaria">.Cidade</td>
-                        <td class="tdSecretaria">EstadoSigla</td>
-                        <td class="tdSecretaria">Telefone</td>
-                        <td class="tdSecretaria">CNPJ</td>
+                        <td class="tdSecretaria">@item.NomeSec</td>
+                        <td class="tdSecretaria">@item.EnderecoSec</td>
+                        <td class="tdSecretaria">@item.Bairro</td>
+                        <td class="tdSecretaria">@item.Cidade</td>
+                        <td class="tdSecretaria">@item.EstadoSigla</td>
+                        <td class="tdSecretaria">@item.Telefone</td>
+                        <td class="tdSecretaria">@item.CNPJ</td>
                         <td class="tdSecretaria">
                             <div class="IconesContainerSecretaria">
                                 <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <div class="Icone2Secretaria">
-                                </div>
+                                <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
                             </div>
                         </td>
                     </tr>
 
+                }
                 }
             </tbody>
 
@@ -60,9 +59,7 @@
     </div>
     <div class="container3Secretaria">
         <div>
-            <button class="btnSecretaria BtnAzulColorSecretaria">
-                Voltar
-            </button>
+           
         </div>
     </div>
 </div>

@@ -1,9 +1,8 @@
 ﻿<div id="container" class="containerProduto">
     <div class="container1Produto">
         <div>
-            <button class="btnProduto">
-                Novo
-            </button>
+            <a class="btn btn-success" href="/Produto/Create"> Novo</a>
+            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
         </div>
     </div>
     <div class="container2Produto">
@@ -30,26 +29,26 @@
 
             </thead>
             <tbody>
+                @if (ViewBag.Produto != null) {
+                    @foreach (var item in ViewBag.Produto)
+                    {
+                        <tr>
+                            <td class="tdProduto">@item.codigo</td>
+                            <td class="tdProduto">@item.descricao</td>
+                            <td class="tdProduto">@item.UnidadeMedida</td>
+                            <td class="tdProduto">@item.EstoqueAtual</td>
+                            <td class="tdProduto">@item.Epermanente</td>
+                            <td class="tdProduto">@item.CodigoCategoria</td>
+                            <td class="tdProduto">
+                                <div class="IconesContainerProduto">
+                                    <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
+                                    <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
+                            </td>
+                        </tr>
 
-                @if ( ViewBag.Produto != null)
-                {
-                    <tr>
-                        <td class="tdProduto">codigo</td>
-                        <td class="tdProduto">Descricao</td>
-                        <td class="tdProduto">UnidadeMedida</td>
-                        <td class="tdProduto">EstoqueAtual</td>
-                        <td class="tdProduto">Epermanente</td>
-                        <td class="tdProduto">CodigoCategoria</td>
-                        <td class="tdProduto">
-                            <div class="IconesContainerProduto">
-                                <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <div class="Icone2Produto">
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-
+                    }
                 }
+                
             </tbody>
 
 
@@ -57,9 +56,7 @@
     </div>
     <div class="container3Produto">
         <div>
-            <button class="btnProduto BtnAzulColorProduto">
-                Voltar
-            </button>
+           
         </div>
     </div>
 </div>

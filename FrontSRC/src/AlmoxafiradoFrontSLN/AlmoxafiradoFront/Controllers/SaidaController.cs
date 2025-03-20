@@ -9,7 +9,7 @@ namespace AlmoxafiradoFront.Controllers
         public IActionResult Index()
         {
 
-            var url = "https://localhost:44366/lista";
+            var url = "https://localhost:44366/listaSaida";
             List<SaidaDTO> saida = new List<SaidaDTO>();
             using HttpClient client = new HttpClient();
             try
@@ -27,6 +27,11 @@ namespace AlmoxafiradoFront.Controllers
                 return View();
 
             }
+            return View();
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
             return View();
         }
     }

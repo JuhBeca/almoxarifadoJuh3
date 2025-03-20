@@ -1,4 +1,6 @@
-﻿using AlmoxarifadoBackAPI.Models;
+﻿using AlmoxarifadoBackAPI.DTO;
+using AlmoxarifadoBackAPI.Models;
+using AlmoxarifadoBackAPI.Repositorio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,7 +18,7 @@ namespace AlmoxarifadoBackAPI.Controllers
 
         }
 
-        [HttpGet("/lista")]
+        [HttpGet("/listaSaida")]
         public IActionResult listaSaidas()
         {
             return Ok(_db.GetAll());
@@ -32,12 +34,11 @@ namespace AlmoxarifadoBackAPI.Controllers
         public IActionResult criarSaida(SaidaCadastroDTO saida)
         {
 
-            var novaSaida = new Saida()
-            {
-                Descricao = saida.Descricao,
-                Quantidadeatual = saida.Quantidadeatual,
-                QuantidadedeSaida = saida.Quantidadedesaida
-            };
+            var novaSaida = new Saida() {
+                Descricao = saida.Descricao, 
+                Quantidadeatual = saida.Quantidadeatual, 
+                QuantidadedeSaida = saida.QuantidadedeSaida };
+
             //_Saidas.Add(novaSaida);
             _db.Add(novaSaida);
             return Ok("Cadastro com Sucesso");

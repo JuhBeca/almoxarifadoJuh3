@@ -1,9 +1,8 @@
 ﻿<div id="container" class="containerSaida">
     <div class="container1Saida">
         <div>
-            <button class="btnSaida">
-                Novo
-            </button>
+            <a class="btn btn-success" href="/Saida/Create"> Novo</a>
+            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
         </div>
     </div>
     <div class="container2Saida">
@@ -23,23 +22,23 @@
             </th>
             </thead>
             <tbody>
-
-                @if (ViewBag.Saida != null)
+                @if (ViewBag.Produto != null){
+                @foreach (var item in ViewBag.Saida)
                 {
                     <tr>
-                        <td class="tdSaida">codigo</td>
-                        <td class="tdSaida">descricao</td>
-                        <td class="tdSaida">quantidadeatual</td>
-                        <td class="tdSaida">quantidadedesaida</td>
+                        <td class="tdSaida">@item.codigo</td>
+                        <td class="tdSaida">@item.descricao</td>
+                        <td class="tdSaida">@item.quantidadeatual</td>
+                        <td class="tdSaida">@item.quantidadedesaida</td>
                         <td class="tdSaida">
                             <div class="IconesContainerSaida">
                                 <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <div class="Icone2Saida">
-                                </div>
+                                <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
                             </div>
                         </td>
                     </tr>
 
+                }
                 }
             </tbody>
 
@@ -48,9 +47,7 @@
     </div>
     <div class="container3Saida">
         <div>
-            <button class="btnSaida BtnAzulColorSaida">
-                Voltar
-            </button>
+            
         </div>
     </div>
 </div>
