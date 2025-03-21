@@ -35,5 +35,11 @@ namespace AlmoxafiradoFront.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Cadastrar(string descricao, string UnidadeMedida, float EstoqueAtual, bool Epermanente, int CodigoCategoria)
+        {
+            return RedirectToAction("index");
+        }
     }
 }

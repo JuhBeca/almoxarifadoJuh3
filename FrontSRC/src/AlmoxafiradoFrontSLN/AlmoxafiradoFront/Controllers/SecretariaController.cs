@@ -35,5 +35,11 @@ namespace AlmoxafiradoFront.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Cadastrar(string NomeSec, string EndereçoSec, string Bairro, string Cidade, string EstadoSigla, string Telefone, string CNPJ)
+        {
+            return RedirectToAction("index");
+        }
     }
 }

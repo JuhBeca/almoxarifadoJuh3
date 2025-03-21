@@ -63,6 +63,7 @@ body {
     .loginlogoff:hover {
         background-color: yellow;
         color: black;
+        cursor:pointer;
     }
 
 .pagina {

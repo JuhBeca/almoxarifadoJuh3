@@ -15,8 +15,8 @@ namespace AlmoxarifadoBackAPI.Repositorio
             modelBuilder.Entity<Produto>().Property(c => c.Codigo).ValueGeneratedOnAdd();
             modelBuilder.Entity<Secretaria>().HasKey(c => c.Codigo);
             modelBuilder.Entity<Secretaria>().Property(c => c.Codigo).ValueGeneratedOnAdd();
-            modelBuilder.Entity<Fornecedor>().HasKey(c => c.Codigo);
-            modelBuilder.Entity<Fornecedor>().Property(c => c.Codigo).ValueGeneratedOnAdd();
+            modelBuilder.Entity<Fornecedor>().HasKey(c => c.codigo);
+            modelBuilder.Entity<Fornecedor>().Property(c => c.codigo).ValueGeneratedOnAdd();
             modelBuilder.Entity<Saida>().HasKey(c => c.Codigo);
             modelBuilder.Entity<Saida>().Property(c => c.Codigo).ValueGeneratedOnAdd();
             modelBuilder.Entity<Entrada>().HasKey(c => c.Codigo);
