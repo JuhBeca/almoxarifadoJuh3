@@ -4,3 +4,30 @@
 @{
 }
 <h1>Cadastro Produto</h1>
+
+<form method=" post" action="/Produto/Cadastrar">
+    <div class="mb-3">
+        <label for=" descricao" class="form-label">Descrição</label>
+        <input type="text" class="form-control" id=" descricao" name=" descricao" maxlength="50">
+    </div>
+    <div class="mb-3">
+        <label for=" unmedida" class="form-label">Un.de Medida</label>
+        <input type="text" class="form-control" id=" unmedida" name=" unmedida" maxlength="15">
+    </div>
+    <div class="mb-3">
+        <label for="estoqueatual" class="form-label">Estoque Atual</label>
+        <input type="number" class="form-control" id=" estoqueatual" name=" estoqueatual" maxlength="1000">
+
+        <label for="epermenante" class="form-label">É permanente?</label>
+        <input type="radio" class="form-control" id=" epermanente" name="epermanente" maxlength="18">
+    </div>
+    <div class="mb-3">
+        <label for=" cidade" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="cidade" name=" cidade" maxlength="50">
+    </div>
+
+
+    <button class="btn btn-primary"> Voltar</button>
+    <button type="submit" class="btn btn-primary"> Salvar</button>
+
+</form>

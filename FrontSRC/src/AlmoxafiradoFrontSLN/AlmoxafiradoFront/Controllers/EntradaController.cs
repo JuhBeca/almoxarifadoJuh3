@@ -1,5 +1,6 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
@@ -34,10 +35,6 @@ namespace AlmoxafiradoFront.Controllers
             return View();
         }
 
-        [HttpGet]
-        public IActionResult Cadastrar(string descricao,int DATAENTRADA,int QUANTIDADEATUAL)
-        {
-            return RedirectToAction("index");
-        }
+
     }
 }
