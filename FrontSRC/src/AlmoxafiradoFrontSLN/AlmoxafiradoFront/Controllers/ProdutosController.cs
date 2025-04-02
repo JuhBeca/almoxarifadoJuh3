@@ -37,7 +37,7 @@ namespace AlmoxafiradoFront.Controllers
         }
 
         [HttpGet]
-        public IActionResult Cadastrar(string descricao, string UnidadeMedida, float EstoqueAtual, bool Epermanente, int CodigoCategoria)
+        public IActionResult Cadastrar(string descricao)
         {
             return RedirectToAction("index");
         }

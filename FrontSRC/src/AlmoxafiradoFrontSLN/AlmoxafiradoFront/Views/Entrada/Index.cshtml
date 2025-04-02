@@ -22,7 +22,8 @@
             </th>
             </thead>
             <tbody>
-                @if (ViewBag.Produto != null){
+                
+                @if (ViewBag.Entrada != null){
                 @foreach (var item in ViewBag.Entrada)
                 {
                     <tr>
@@ -30,14 +31,10 @@
                         <td class="tdEntrada">@item.descricao</td>
                         <td class="tdEntrada">@item.quantidadeatual</td>
                         <td class="tdEntrada">@item.dataentrada</td>
-                        <td class="tdEntrada">
-                            <div class="IconesContainerEntrada">
-                                <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
-                            </div>
-                        </td>
+                       
                     </tr>
 
+                
                 }
                 }
             </tbody>
