@@ -2,9 +2,9 @@
 {
     public class SaidaDTO
     {
-        public int Codigo { get; set; }
+        public int codigo { get; set; }
 
-        public string Descricao { get; set; }
+        public string descricao { get; set; }
         public int Quantidadeatual { get; set; }
         public int QuantidadedeSaida { get; set; }
     }
