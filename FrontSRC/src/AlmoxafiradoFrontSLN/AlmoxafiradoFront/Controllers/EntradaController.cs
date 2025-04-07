@@ -29,10 +29,38 @@ namespace AlmoxafiradoFront.Controllers
             }
             return View();
         }
+
         [HttpGet]
         public IActionResult Create()
         {
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Cadastrar(string descricao, int DATAENTRADA, int QUANTIDADEATUAL)
+        {
+            var url = "https://localhost:44366/criarEntrada";
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var entradaNova = new EntradaDTO {
+                    descricao = descricao ,
+                    DATAENTRADA = DATAENTRADA,
+                    QUANTIDADEATUAL = QUANTIDADEATUAL
+                };
+                var entradaSerializada = JsonSerializer.Serialize<EntradaDTO>(entradaNova);
+                var jsonContent = new StringContent(entradaSerializada, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+                response.EnsureSuccessStatusCode();
+            }
+            catch (Exception)
+            {
+                return View();
+            }
+
+            return RedirectToAction("index");
         }
 
 

@@ -1,6 +1,8 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 using System.Text.Json;
+using static System.Net.WebRequestMethods;
 
 namespace AlmoxafiradoFront.Controllers
 {
@@ -36,8 +38,30 @@ namespace AlmoxafiradoFront.Controllers
         }
 
         [HttpGet]
-        public IActionResult Cadastrar(string Descricao, int Quantidadeatual, int QuantidadedeSaida)
+        public IActionResult Cadastrar(string descricao, int Quantidadeatual, int QuantidadedeSaida)
         {
+            var url = "https://localhost:44366/criarSaida";
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var saidaNova = new SaidaDTO
+                {
+                    descricao = descricao,
+                    Quantidadeatual = Quantidadeatual,
+                    QuantidadedeSaida = QuantidadedeSaida
+                    
+                };
+                var saidaSerializada = JsonSerializer.Serialize<SaidaDTO>(saidaNova);
+                var jsonContent = new StringContent(saidaSerializada, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+                response.EnsureSuccessStatusCode();
+            }
+            catch (Exception)
+            {
+                return View();
+            }
             return RedirectToAction("index");
         }
     }
