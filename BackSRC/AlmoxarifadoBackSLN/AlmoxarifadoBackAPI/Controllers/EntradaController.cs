@@ -38,7 +38,8 @@ namespace AlmoxarifadoBackAPI.Controllers
             {
                 Descricao = entrada.Descricao,
                 DATAENTRADA = entrada.DATAENTRADA,
-                QUANTIDADEATUAL =  entrada.QUANTIDADEATUAL
+                QUANTIDADEATUAL = entrada.QUANTIDADEATUAL
+
             };
             //_Entradas.Add(novaEntrada);
             _db.Add(novaEntrada);

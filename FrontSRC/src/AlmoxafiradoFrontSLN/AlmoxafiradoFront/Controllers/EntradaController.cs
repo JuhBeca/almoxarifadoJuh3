@@ -37,7 +37,7 @@ namespace AlmoxafiradoFront.Controllers
         }
 
         [HttpGet]
-        public IActionResult Cadastrar(string descricao, int DATAENTRADA, int QUANTIDADEATUAL)
+        public IActionResult Cadastrar(string descricao, int DATAENTRADA, string QUANTIDADEATUAL)
         {
             var url = "https://localhost:44366/criarEntrada";
 
