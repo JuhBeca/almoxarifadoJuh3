@@ -8,33 +8,34 @@
     <div class="container2Fornecedor">
         <table class="TableContainerFornecedor">
             <thead class="theadFornecedor">
-            <th>
-                Código
-            </th>
-            <th>
-                Nome
-            </th>
-            <th>
-                Telefone
-            </th>
-            <th>
-                Estado
-            </th>
-            <th>
-                Cidade
-            </th>
-            <th>
-                CNPJ
-            </th>
+                <th>
+                    Código
+                </th>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Telefone
+                </th>
+                <th>
+                    Estado
+                </th>
+                <th>
+                    Cidade
+                </th>
+                <th>
+                    CNPJ
+                </th>
 
             </thead>
             <tbody>
-                @if (ViewBag.Fornecedor != null){
-                @foreach (var item in ViewBag.Fornecedor)
+                @if (ViewBag.Categoria != null)
                 {
-                    <tr>
-                        <td class="tdFornecedor">@item.codigo</td>
-                        <td class="tdFornecedor">@item.Nome</td>
+                    @foreach (var item in ViewBag.Fornecedor)
+                    {
+                        <tr>
+                            <td class="tdFornecedor">@item.codigo</td>
+                        <td class="tdFornecedor">@item.nome</td>
                         <td class="tdFornecedor">@item.Telefone</td>
                         <td class="tdFornecedor">@item.Estado</td>
                         <td class="tdFornecedor">@item.Cidade</td>
@@ -44,8 +45,8 @@
                         </td>
                     </tr>
 
-                }
-                }
+                }}
+                
             </tbody>
 
 

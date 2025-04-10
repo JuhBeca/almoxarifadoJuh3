@@ -10,7 +10,7 @@ namespace AlmoxafiradoFront.Controllers
     {
         public  IActionResult Index()
         {
-            var url = "https://localhost:44366/listaprodutos";
+            var url = "https://localhost:44366/listaprodutos\r\n";
             List <ProdutosDTO> produtos = new List < ProdutosDTO> ();
             using HttpClient client = new HttpClient();
             try

@@ -11,7 +11,7 @@ namespace AlmoxafiradoFront.Controllers
         public IActionResult Index()
         {
 
-            var url = "https://localhost:44366/listaSaida";
+            var url = "https://localhost:44366/listaSaida\r\n";
             List<SaidaDTO> saida = new List<SaidaDTO>();
             using HttpClient client = new HttpClient();
             try

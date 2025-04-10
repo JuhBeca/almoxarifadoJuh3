@@ -9,7 +9,7 @@ namespace AlmoxafiradoFront.Controllers
     {
         public IActionResult Index()
         {
-            var url = "https://localhost:44366/listaFornecedor";
+            var url = "https://localhost:44366/listaFornecedor\r\n";
             List<FornecedorDTO> fornecedor = new List<FornecedorDTO>();
             using HttpClient client = new HttpClient();
             try
@@ -38,7 +38,7 @@ namespace AlmoxafiradoFront.Controllers
 
 
         [HttpGet]
-        public IActionResult Cadastrar(string nome, string Telefone, string Estado, string Cidade, string CNPJ)
+        public IActionResult Cadastrar (string nome, int Telefone, string Estado, string Cidade, string CNPJ)
         {
             var url = "https://localhost:44366/criarFornecedor";
 
@@ -47,7 +47,7 @@ namespace AlmoxafiradoFront.Controllers
             {
                 var fornecedorNovo = new FornecedorDTO
                 {
-                    Nome= nome,
+                    nome= nome,
                     Telefone = Telefone,
                     Estado = Estado,
                     Cidade = Cidade,

@@ -23,7 +23,7 @@
             </thead>
             <tbody>
                 
-               
+               @if (ViewBag.Categoria != null){
                 @foreach (var item in ViewBag.Entrada)
                 {
                     <tr>
@@ -36,6 +36,7 @@
 
                 
                 }
+               }
                 
             </tbody>
 
