@@ -2,8 +2,10 @@
 {
     public class SaidaCadastroDTO
     {
-        public required string Descricao{ get; set; }
-        public int Quantidadeatual { get; set; }
-        public int QuantidadedeSaida { get; set; }
+        public int Codigo { get; set; }
+
+        public string DataSaida { get; set; }
+        public int CodigoSecretaria { get; set; }
+        public int Observacao { get; set; }
     }
 }

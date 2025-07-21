@@ -36,9 +36,9 @@ namespace AlmoxarifadoBackAPI.Controllers
 
             var novaEntrada = new Entrada()
             {
-                Descricao = entrada.Descricao,
-                DATAENTRADA = entrada.DATAENTRADA,
-                QUANTIDADEATUAL = entrada.QUANTIDADEATUAL
+                DataEntrada = entrada.DataEntrada,
+                CodigoFornecedor = entrada.CodigoFornecedor,
+                Observacao = entrada.Observacao
 
             };
             //_Entradas.Add(novaEntrada);

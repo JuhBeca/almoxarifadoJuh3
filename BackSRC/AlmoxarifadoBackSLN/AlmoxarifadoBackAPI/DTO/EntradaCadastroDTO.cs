@@ -2,8 +2,8 @@
 {
     public class EntradaCadastroDTO
     {
-        public string Descricao { get; set; }
-        public int DATAENTRADA { get; set; }
-        public string QUANTIDADEATUAL { get; set; }
+        public string DataEntrada { get; set; }
+        public int CodigoFornecedor { get; set; }
+        public string Observacao { get; set; }
     }
 }

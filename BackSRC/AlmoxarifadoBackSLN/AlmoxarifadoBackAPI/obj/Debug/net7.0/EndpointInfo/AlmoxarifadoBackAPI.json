@@ -508,8 +508,8 @@
             "nullable": true
           },
           "telefone": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
           },
           "estado": {
             "type": "string",
