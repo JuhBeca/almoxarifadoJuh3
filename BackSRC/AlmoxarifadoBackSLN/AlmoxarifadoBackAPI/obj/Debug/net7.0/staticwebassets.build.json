@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "hGAIidHQq1Svac/1LDJK7IQk8cWfcoBQoKd46VZn2RU=",
+  "Hash": "kExl8x2u9IU4v5jLfINV2bkuFZYWXVjce46iquJgUwA=",
   "Source": "AlmoxarifadoBackAPI",
   "BasePath": "_content/AlmoxarifadoBackAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
