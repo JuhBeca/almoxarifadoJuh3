@@ -35,13 +35,13 @@ namespace AlmoxarifadoBackAPI.Controllers
 
             var novaSecretaria = new Secretaria()
             {
-                NomeSec = secretaria.NomeSec,
-                EndereçoSec = secretaria.EndereçoSec,
+                NomeSecretaria = secretaria.NomeSecretaria,
+                Endereco = secretaria.Endereco,
                 Bairro = secretaria.Bairro,
-                CNPJ = secretaria.CNPJ,
+                Telefone = secretaria.Telefone,
+                Estado = secretaria.Estado,
                 Cidade = secretaria.Cidade,
-                EstadoSigla = secretaria.EstadoSigla,
-                Telefone = secretaria.Telefone
+                CNPJ = secretaria.CNPJ
 
             };
             //_categorias.Add(novaProduto);

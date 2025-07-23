@@ -475,15 +475,15 @@
       "EntradaCadastroDTO": {
         "type": "object",
         "properties": {
-          "descricao": {
+          "dataEntrada": {
             "type": "string",
             "nullable": true
           },
-          "dataentrada": {
+          "codigoFornecedor": {
             "type": "integer",
             "format": "int32"
           },
-          "quantidadeatual": {
+          "observacao": {
             "type": "string",
             "nullable": true
           }
@@ -503,7 +503,15 @@
       "FornecedorCadastroDTO": {
         "type": "object",
         "properties": {
-          "nome": {
+          "nomeFornecedor": {
+            "type": "string",
+            "nullable": true
+          },
+          "endereco": {
+            "type": "string",
+            "nullable": true
+          },
+          "bairro": {
             "type": "string",
             "nullable": true
           },
@@ -539,11 +547,15 @@
       "ProdutoCadastroDTO": {
         "type": "object",
         "properties": {
+          "codigo": {
+            "type": "integer",
+            "format": "int32"
+          },
           "descricao": {
             "type": "string",
             "nullable": true
           },
-          "unidadeMedida": {
+          "unMedida": {
             "type": "string",
             "nullable": true
           },
@@ -551,7 +563,7 @@
             "type": "number",
             "format": "float"
           },
-          "epermanente": {
+          "ePermanente": {
             "type": "boolean"
           },
           "codigoCategoria": {
@@ -574,15 +586,19 @@
       "SaidaCadastroDTO": {
         "type": "object",
         "properties": {
-          "descricao": {
-            "type": "string",
-            "nullable": true
-          },
-          "quantidadeatual": {
+          "codigo": {
             "type": "integer",
             "format": "int32"
           },
-          "quantidadedeSaida": {
+          "dataSaida": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigoSecretaria": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "observacao": {
             "type": "integer",
             "format": "int32"
           }
@@ -602,11 +618,11 @@
       "SecretariaCadastroDTO": {
         "type": "object",
         "properties": {
-          "nomeSec": {
+          "nomeSecretaria": {
             "type": "string",
             "nullable": true
           },
-          "endereçoSec": {
+          "endereco": {
             "type": "string",
             "nullable": true
           },
@@ -614,15 +630,15 @@
             "type": "string",
             "nullable": true
           },
+          "telefone": {
+            "type": "string",
+            "nullable": true
+          },
           "cidade": {
             "type": "string",
             "nullable": true
           },
-          "estadoSigla": {
-            "type": "string",
-            "nullable": true
-          },
-          "telefone": {
+          "estado": {
             "type": "string",
             "nullable": true
           },

@@ -35,9 +35,10 @@ namespace AlmoxarifadoBackAPI.Controllers
         {
 
             var novaSaida = new Saida() {
-                Descricao = saida.Descricao, 
-                Quantidadeatual = saida.Quantidadeatual, 
-                QuantidadedeSaida = saida.QuantidadedeSaida };
+                DataSaida = saida.DataSaida, 
+                CodigoSecretaria = saida.CodigoSecretaria, 
+                Observacao = saida.Observacao 
+            };
 
             //_Saidas.Add(novaSaida);
             _db.Add(novaSaida);

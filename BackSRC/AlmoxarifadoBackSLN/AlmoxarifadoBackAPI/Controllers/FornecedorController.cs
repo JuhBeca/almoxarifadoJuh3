@@ -36,12 +36,12 @@ namespace AlmoxarifadoBackAPI.Controllers
             var novoFornecedor = new Fornecedor()
             {
                 NomeFornecedor = fornecedor.NomeFornecedor,
-                Cidade = fornecedor.Cidade,
-                CNPJ = fornecedor.CNPJ,
+                Endereco = fornecedor.Endereco,
+                Bairro = fornecedor.Bairro,
                 Telefone = fornecedor.Telefone,
                 Estado = fornecedor.Estado,
-                Estado = fornecedor.Estado,
-                Estado = fornecedor.Estado
+                Cidade = fornecedor.Cidade,
+                CNPJ = fornecedor.CNPJ
 
             };
             //_categorias.Add(novaCategoria);
