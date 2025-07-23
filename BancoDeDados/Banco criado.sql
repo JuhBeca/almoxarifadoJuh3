@@ -14,12 +14,11 @@ CREATE TABLE Produto (
     Codigo INT IDENTITY(1,1) PRIMARY KEY,
     Descricao VARCHAR(100) NOT NULL,
     UnMedida VARCHAR(100) NOT NULL,
-    EstoqueAtual int,
+    EstoqueAtual int foreign key (CodigoCategoria) references Categoria(Codigo),
     EPermanente BIT DEFAULT 0, -- Define 0 como valor padrão
     CodigoCategoria INT NULL
 );
-alter table Produto
-add foreign key (CodigoCategoria) references Categoria(Codigo)
+
 
 
 
@@ -50,17 +49,14 @@ CNPJ varchar(100)
 Create table Entrada(
 Codigo int identity(1,1) primary key,
 DataEntrada datetime,
-CodigoFronecedor int null,
+CodigoFronecedor int foreign key (CodigoFronecedor) references Fornecedor(Codigo),
 Observacao varchar(100)
 );
-alter table Entrada
-add foreign key (CodigoFronecedor) references Fornecedor(Codigo)
+
 
 create table Saida (
 Codigo int identity(1,1) primary key,
 DataSaida datetime not null,
-CodigoSecretaria int null,
+CodigoSecretaria int foreign key (CodigoSecretaria) references Secretaria(Codigo),
 Observacao varchar(100)
 );
-alter table Saida
-add foreign key (CodigoSecretaria) references Secretaria(Codigo)
