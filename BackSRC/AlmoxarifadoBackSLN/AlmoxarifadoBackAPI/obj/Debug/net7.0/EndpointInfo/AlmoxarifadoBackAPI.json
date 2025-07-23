@@ -477,7 +477,7 @@
         "properties": {
           "dataEntrada": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           },
           "codigoFornecedor": {
             "type": "integer",
@@ -586,13 +586,9 @@
       "SaidaCadastroDTO": {
         "type": "object",
         "properties": {
-          "codigo": {
-            "type": "integer",
-            "format": "int32"
-          },
           "dataSaida": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
           },
           "codigoSecretaria": {
             "type": "integer",

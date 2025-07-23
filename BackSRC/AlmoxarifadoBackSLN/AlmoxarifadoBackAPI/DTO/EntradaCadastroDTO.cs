@@ -2,7 +2,7 @@
 {
     public class EntradaCadastroDTO
     {
-        public string DataEntrada { get; set; }
+        public DateTime DataEntrada { get; set; }
         public int CodigoFornecedor { get; set; }
         public string Observacao { get; set; }
     }
