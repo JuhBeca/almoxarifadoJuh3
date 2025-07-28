@@ -10,7 +10,7 @@ namespace AlmoxafiradoFront.Controllers
     {
         public  IActionResult Index()
         {
-            var url = "https://localhost:44366/listaprodutos\r\n";
+            var url = "https://localhost:5001/listaprodutos";
             List <ProdutosDTO> produtos = new List < ProdutosDTO> ();
             using HttpClient client = new HttpClient();
             try
@@ -38,18 +38,18 @@ namespace AlmoxafiradoFront.Controllers
         }
 
         [HttpGet]
-        public IActionResult Cadastrar(string descricao, string UnidadeMedida, float EstoqueAtual, bool Epermanente, int CodigoCategoria)
+        public IActionResult Cadastrar(string Descricao, string UnMedida, int EstoqueAtual, bool EPermanente, int CodigoCategoria)
         {
-            var url = "https://localhost:44366/criarproduto";
+            var url = "https://localhost:5001/criarproduto";
 
             using HttpClient client = new HttpClient();
             try
             {
                 var produtosNovo = new ProdutosDTO
                 {
-                    descricao = descricao,
-                    UnidadeMedida = UnidadeMedida,
-                    Epermanente = Epermanente,
+                    Descricao = Descricao,
+                    UnMedida = UnMedida,
+                    EPermanente = EPermanente,
                     EstoqueAtual = EstoqueAtual,
                     CodigoCategoria = CodigoCategoria
                 };

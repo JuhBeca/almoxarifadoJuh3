@@ -479,7 +479,7 @@
             "type": "string",
             "format": "date-time"
           },
-          "codigoFornecedor": {
+          "codigoFronecedor": {
             "type": "integer",
             "format": "int32"
           },
@@ -547,10 +547,6 @@
       "ProdutoCadastroDTO": {
         "type": "object",
         "properties": {
-          "codigo": {
-            "type": "integer",
-            "format": "int32"
-          },
           "descricao": {
             "type": "string",
             "nullable": true
@@ -560,8 +556,8 @@
             "nullable": true
           },
           "estoqueAtual": {
-            "type": "number",
-            "format": "float"
+            "type": "integer",
+            "format": "int32"
           },
           "ePermanente": {
             "type": "boolean"
@@ -595,8 +591,8 @@
             "format": "int32"
           },
           "observacao": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -4,6 +4,6 @@
     {
         public DateTime DataSaida { get; set; }
         public int CodigoSecretaria { get; set; }
-        public int Observacao { get; set; }
+        public string Observacao { get; set; }
     }
 }

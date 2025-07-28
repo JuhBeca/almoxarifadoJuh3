@@ -11,7 +11,7 @@ namespace AlmoxafiradoFront.Controllers
     {
         public  IActionResult Index()
         {
-            var url = "https://localhost:44366/listaCategoria\r\n";
+            var url = "https://localhost:5001/listaCategoria";
             List <CategoriaDTO> categorias = new List < CategoriaDTO> ();
             using HttpClient client = new HttpClient();
             try
@@ -41,7 +41,7 @@ namespace AlmoxafiradoFront.Controllers
         [HttpGet]
         public IActionResult Cadastrar(string descricao)
         {
-            var url = "https://localhost:44366/criarcategoria";
+            var url = "https://localhost:5001/criarcategoria";
 
             using HttpClient client = new HttpClient();
             try
