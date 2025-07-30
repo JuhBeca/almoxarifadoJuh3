@@ -61,9 +61,10 @@ namespace AlmoxafiradoFront.Controllers
             }
             catch (Exception)
             {
-                return View();
+                
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("index");
+            return RedirectToAction("Index");
         }
     }
 }
