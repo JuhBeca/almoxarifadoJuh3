@@ -38,20 +38,23 @@ namespace AlmoxafiradoFront.Controllers
 
 
         [HttpGet]
-        public IActionResult Cadastrar (string nome, int Telefone, string Estado, string Cidade, string CNPJ)
+        public IActionResult Cadastrar (string NomeFornecedor, string Endereco, string Bairro, string Estado, string Cidade, string Telefone, string CNPJ)
         {
-            var url = "https://localhost:44366/criarFornecedor";
+            var url = "https://localhost:5001/criarFornecedor";
 
             using HttpClient client = new HttpClient();
             try
             {
                 var fornecedorNovo = new FornecedorDTO
                 {
-                    nome= nome,
-                    Telefone = Telefone,
+                    NomeFornecedor = NomeFornecedor,
+                    Endereco = Endereco,
+                    Bairro = Bairro,
                     Estado = Estado,
                     Cidade = Cidade,
+                    Telefone = Telefone,
                     CNPJ = CNPJ
+
                 };
                 var fornecedorSerializada = JsonSerializer.Serialize<FornecedorDTO>(fornecedorNovo);
                 var jsonContent = new StringContent(fornecedorSerializada, Encoding.UTF8, "application/json");
@@ -61,10 +64,10 @@ namespace AlmoxafiradoFront.Controllers
             }
             catch (Exception)
             {
-                return View();
+                return RedirectToAction("Index");
             }
 
-            return RedirectToAction("index");
+            return RedirectToAction("Index");
         }
     }
 }

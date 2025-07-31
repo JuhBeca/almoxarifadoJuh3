@@ -59,6 +59,7 @@ namespace AlmoxafiradoFront.Controllers
                 HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
                 response.EnsureSuccessStatusCode();
             }
+            
             catch (Exception)
             {
                 
