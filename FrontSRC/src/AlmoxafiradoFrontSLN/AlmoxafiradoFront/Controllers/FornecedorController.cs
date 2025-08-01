@@ -38,7 +38,7 @@ namespace AlmoxafiradoFront.Controllers
 
 
         [HttpGet]
-        public IActionResult Cadastrar (string NomeFornecedor, string Endereco, string Bairro, string Estado, string Cidade, string Telefone, string CNPJ)
+        public IActionResult Cadastrar (string NomeFornecedor, string Endereco, string Bairro, string Telefone,  string Estado, string Cidade, string CNPJ)
         {
             var url = "https://localhost:5001/criarFornecedor";
 
@@ -50,9 +50,9 @@ namespace AlmoxafiradoFront.Controllers
                     NomeFornecedor = NomeFornecedor,
                     Endereco = Endereco,
                     Bairro = Bairro,
+                    Telefone = Telefone,
                     Estado = Estado,
                     Cidade = Cidade,
-                    Telefone = Telefone,
                     CNPJ = CNPJ
 
                 };
@@ -64,10 +64,10 @@ namespace AlmoxafiradoFront.Controllers
             }
             catch (Exception)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("index");
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction("index");
         }
     }
 }

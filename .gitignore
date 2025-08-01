@@ -5,3 +5,4 @@ BackSRC/AlmoxarifadoSLN/AlmoxarifadoAPI/obj/
 *.csproj
 *.dll
 *.cache
+*.vsidx
