@@ -29,8 +29,10 @@
 
             </thead>
             <tbody>
-                    
-                    @foreach (var item in ViewBag.Produtos)
+
+                @if (ViewBag.Produtos != null)
+                {
+                    foreach (var item in ViewBag.Produtos)
                     {
                         <tr>
                             <td class="tdProduto">@item.Codigo</td>
@@ -39,10 +41,13 @@
                             <td class="tdProduto">@item.EstoqueAtual</td>
                             <td class="tdProduto">@item.EPermanente</td>
                             <td class="tdProduto">@item.CodigoCategoria</td>
-                           
                         </tr>
-
                     }
+                }
+                else
+                {
+                    <tr><td colspan="6">Nenhum produto encontrado.</td></tr>
+                }
                     
                 
                 
