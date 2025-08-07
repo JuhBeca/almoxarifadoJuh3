@@ -8,27 +8,20 @@
     <div class="container2Produto">
         <table class="TableContainerProduto">
             <thead class="theadProduto">
-            <th>
-                Código
-            </th>
-            <th>
-                Descrição
-            </th>
-            <th>
-                UnidadeMedida
-            </th>
-            <th>
-                EstoqueAtual
-            </th>
-            <th>
-                Epermanente
-            </th>
-            <th>
-                CódigoCategoria
-            </th>
-
+                <tr>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>UnidadeMedida</th>
+                    <th>EstoqueAtual</th>
+                    <th>Epermanente</th>
+                    <th>CódigoCategoria</th>
+                </tr>
             </thead>
             <tbody>
+
+                @{
+                    var produtos = ViewBag.Produtos as List<AlmoxafiradoFront.DTO.ProdutosDTO>;
+                }
 
                 @if (ViewBag.Produtos != null)
                 {
@@ -44,10 +37,7 @@
                         </tr>
                     }
                 }
-                else
-                {
-                    <tr><td colspan="6">Nenhum produto encontrado.</td></tr>
-                }
+                
                     
                 
                 

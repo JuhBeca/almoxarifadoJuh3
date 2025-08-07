@@ -40,7 +40,7 @@ namespace AlmoxafiradoFront.Controllers
         [HttpGet]
         public IActionResult Cadastrar(string Descricao, string UnMedida, int EstoqueAtual, bool EPermanente, int CodigoCategoria)
         {
-            var url = "https://localhost:44366/criarproduto";
+            var url = "https://localhost:7215/criarproduto";
 
             using HttpClient client = new HttpClient();
             try
