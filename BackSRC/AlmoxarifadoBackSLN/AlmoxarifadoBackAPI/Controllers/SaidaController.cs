@@ -6,11 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AlmoxarifadoBackAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SaidaController : ControllerBase
     {
-
         private readonly ISaidaRepositorio _db;
         public SaidaController(ISaidaRepositorio db)
         {
@@ -19,30 +18,33 @@ namespace AlmoxarifadoBackAPI.Controllers
         }
 
         [HttpGet("/listaSaida")]
-        public IActionResult listaSaidas()
+        public IActionResult listaSaida()
         {
             return Ok(_db.GetAll());
         }
 
         [HttpPost("/Saida")]
-        public IActionResult listaSaidas(SaidaDTO saida)
+        public IActionResult listaSaida(SaidaDTO saida)
         {
-            return Ok(_db.GetAll().Where(x => x.Codigo == saida.Codigo));
+            return Ok(_db.GetAll().Where(x=>x.Codigo==saida.Codigo));
         }
 
         [HttpPost("/criarSaida")]
         public IActionResult criarSaida(SaidaCadastroDTO saida)
         {
 
-            var novaSaida = new Saida() {
-                DataSaida = saida.DataSaida, 
-                CodigoSecretaria = saida.CodigoSecretaria, 
-                Observacao = saida.Observacao 
+            var novaSaida = new Saida()
+            {
+                DataSaida = saida.DataSaida,
+                CodigoSecretaria = saida.CodigoSecretaria,
+                Observacao = saida.Observacao
             };
-
-            //_Saidas.Add(novaSaida);
+          
             _db.Add(novaSaida);
             return Ok("Cadastro com Sucesso");
         }
+
+
+
     }
 }

@@ -1,51 +1,61 @@
-﻿<div id="container" class="containerEntrada">
-    <div class="container1Entrada">
+﻿<div id="container" class="containerEnt">
+    <div class="container1Ent">
         <div>
-            <a class="btn btn-success" href="/Entrada/Create"> Novo</a>
-            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
+            <a class="btnEnt" href="/Entrada/Create"> Novo
+            </a>
         </div>
     </div>
-    <div class="container2Entrada">
-        <table class="TableContainerEntrada">
-            <thead class="theadEntrada">
+    <div class="container2Ent">
+        <table class="TableContainerEnt">
+            <thead class="theadEnt">
             <th>
                 Código
             </th>
             <th>
-                descrição
+                Data de Entrada
             </th>
             <th>
-                QUANTIDADEATUAL
+                Quantidade atual
             </th>
             <th>
-                DATAENTRADA
+                Opções
             </th>
             </thead>
             <tbody>
-                
-               @if (ViewBag.Categoria != null){
-                @foreach (var item in ViewBag.Entrada)
+
+                @foreach (var item in ViewBag.Entradas)
                 {
                     <tr>
-                        <td class="tdEntrada">@item.codigo</td>
-                        <td class="tdEntrada">@item.descricao</td>
-                        <td class="tdEntrada">@item.quantidadeatual</td>
-                        <td class="tdEntrada">@item.dataentrada</td>
-                       
+                        <td class="tdEnt">@item.codigo</td>
+                        <td class="tdEnt">@item.dataentrada</td>
+                        <td class="tdEnt">@item.quantidadeatual</td>
+                        <td class="tdEnt">
+                            <div class="IconesContainerEnt">
+                                <div class="Icone1Ent">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Ent">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
 
-                
                 }
-               }
-                
             </tbody>
 
 
         </table>
     </div>
-    <div class="container3Entrada">
+    <div class="container3Ent">
         <div>
-            
+            <button class="btnEnt BtnAzulColorEnt">
+                Voltar
+            </button>
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/listaCategoria": {
+    "/lista": {
       "get": {
         "tags": [
           "Categoria"
@@ -79,7 +79,7 @@
         }
       }
     },
-    "/listaEntrada": {
+    "/Entrada": {
       "get": {
         "tags": [
           "Entrada"
@@ -91,7 +91,7 @@
         }
       }
     },
-    "/Entrada": {
+    "/listaEntrada": {
       "post": {
         "tags": [
           "Entrada"
@@ -165,7 +165,7 @@
         }
       }
     },
-    "/fornecedor": {
+    "/Fornecedor": {
       "post": {
         "tags": [
           "Fornecedor"
@@ -375,7 +375,7 @@
         }
       }
     },
-    "/listasecretaria": {
+    "/listaSecretaria": {
       "get": {
         "tags": [
           "Secretaria"
@@ -387,7 +387,7 @@
         }
       }
     },
-    "/secretaria": {
+    "/Secretaria": {
       "post": {
         "tags": [
           "Secretaria"
@@ -427,17 +427,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SecretariaCadastroDTO"
+                "$ref": "#/components/schemas/SecretariacadastroDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SecretariaCadastroDTO"
+                "$ref": "#/components/schemas/SecretariacadastroDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SecretariaCadastroDTO"
+                "$ref": "#/components/schemas/SecretariacadastroDTO"
               }
             }
           }
@@ -503,15 +503,7 @@
       "FornecedorCadastroDTO": {
         "type": "object",
         "properties": {
-          "nomeFornecedor": {
-            "type": "string",
-            "nullable": true
-          },
-          "endereco": {
-            "type": "string",
-            "nullable": true
-          },
-          "bairro": {
+          "nome": {
             "type": "string",
             "nullable": true
           },
@@ -551,7 +543,7 @@
             "type": "string",
             "nullable": true
           },
-          "unMedida": {
+          "unidadeMedida": {
             "type": "string",
             "nullable": true
           },
@@ -559,7 +551,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "ePermanente": {
+          "epermanente": {
             "type": "boolean"
           },
           "codigoCategoria": {
@@ -607,18 +599,20 @@
         },
         "additionalProperties": false
       },
-      "SecretariaCadastroDTO": {
+      "SecretariaDTO": {
         "type": "object",
         "properties": {
-          "nomeSecretaria": {
-            "type": "string",
-            "nullable": true
-          },
-          "endereco": {
-            "type": "string",
-            "nullable": true
-          },
-          "bairro": {
+          "codigo": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SecretariacadastroDTO": {
+        "type": "object",
+        "properties": {
+          "nome": {
             "type": "string",
             "nullable": true
           },
@@ -626,27 +620,17 @@
             "type": "string",
             "nullable": true
           },
-          "cidade": {
+          "estado": {
             "type": "string",
             "nullable": true
           },
-          "estado": {
+          "cidade": {
             "type": "string",
             "nullable": true
           },
           "cnpj": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "SecretariaDTO": {
-        "type": "object",
-        "properties": {
-          "codigo": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

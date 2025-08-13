@@ -1,0 +1,82 @@
+﻿
+bodypro {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.containerpro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1pro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-grouppro {
+    margin-bottom: 15px;
+}
+
+labelpro {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+inputpro, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+    inputpro[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+        inputpro[type="number"]::-webkit-outer-spin-button,
+        inputpro[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+.buttonspro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btnpro {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.salvarpro {
+    background-color: #4CAF50;
+    color: white;
+}
+
+    .salvarpro:hover {
+        background-color: #45a049;
+    }
+
+.voltarpro {
+    background-color: #f44336;
+    color: white;
+}
+
+    .voltarpro:hover {
+        background-color: #e53935;
+    }

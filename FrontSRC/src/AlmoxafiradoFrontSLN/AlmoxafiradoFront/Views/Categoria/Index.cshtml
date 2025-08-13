@@ -1,11 +1,10 @@
 ﻿<div id="container" class="containerCategoria">
     <div class="container1Categoria">
         <div>
-            <a class="btn btn-success" href="/Categoria/Create"> Novo</a>
-            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
+            <a class="btnCategoria" href="/Categoria/Create">Novo
+            </a>
         </div>
     </div>
-   
     <div class="container2Categoria">
         <table class="TableContainerCategoria">
             <thead class="theadCategoria">
@@ -19,30 +18,41 @@
                 Opções
             </th>
             </thead>
-
             <tbody>
-
-                @if (ViewBag.Categoria != null){
-                @foreach (var item in ViewBag.Categoria )
+           
+                @foreach (var item in ViewBag.Categorias)
                 {
                     <tr>
                         <td class="tdCategoria">@item.codigo</td>
                         <td class="tdCategoria">@item.descricao</td>
                         <td class="tdCategoria">
                             <div class="IconesContainerCategoria">
-                                <img class="imagenslixo" src="/Imagens/trash.svg" alt="Excluir" />
-                                <img class="imagenseditar" src="/Imagens/pencil-square.svg" alt="Editar" />
+                                <div class="Icone1Categoria">                                 
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Categoria">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
                             </div>
                         </td>
                     </tr>
                
-                }
                 }
             </tbody>
 
         
         </table>
     </div>
-   
+    <div class="container3Categoria">
+        <div>
+            <button class="btnCategoria BtnAzulColorCategoria">
+                Voltar
+            </button>
+        </div>
+    </div>
 </div>
 

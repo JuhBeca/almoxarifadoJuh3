@@ -4,8 +4,10 @@ namespace AlmoxarifadoBackAPI.Repositorio
 {
     public interface ISaidaRepositorio
     {
-        void Add(Saida saida );
+        void Add(Saida saida);
 
         List<Saida> GetAll();
+
+        
     }
 }

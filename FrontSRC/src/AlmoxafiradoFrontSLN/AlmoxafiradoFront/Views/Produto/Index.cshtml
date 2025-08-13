@@ -1,55 +1,71 @@
-﻿<div id="container" class="containerProduto">
-    <div class="container1Produto">
+﻿<div id="container" class="containerPro">
+    <div class="container1Pro">
         <div>
-            <a class="btn btn-success" href="/Produto/Create"> Novo</a>
-            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
+            <a class="btnPro" href="/Produto/Create"> Novo
+            </a>
         </div>
     </div>
-    <div class="container2Produto">
-        <table class="TableContainerProduto">
-            <thead class="theadProduto">
-                <tr>
-                    <th>Código</th>
-                    <th>Descrição</th>
-                    <th>UnidadeMedida</th>
-                    <th>EstoqueAtual</th>
-                    <th>Epermanente</th>
-                    <th>CódigoCategoria</th>
-                </tr>
+    <div class="container2Pro">
+        <table class="TableContainerPro">
+            <thead class="theadPro">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Unidade de Medida
+            </th>
+            <th>
+               Estoque Atual
+            </th>
+            <th>
+                Epermanente
+            </th>
+            <th>
+                Opções
+            </th>
             </thead>
             <tbody>
 
-                @{
-                    var produtos = ViewBag.Produtos as List<AlmoxafiradoFront.DTO.ProdutosDTO>;
-                }
-
-                @if (ViewBag.Produtos != null)
+                @foreach (var item in ViewBag.Produtos )
                 {
-                    foreach (var item in ViewBag.Produtos)
-                    {
-                        <tr>
-                            <td class="tdProduto">@item.Codigo</td>
-                            <td class="tdProduto">@item.Descricao</td>
-                            <td class="tdProduto">@item.UnMedida</td>
-                            <td class="tdProduto">@item.EstoqueAtual</td>
-                            <td class="tdProduto">@item.EPermanente</td>
-                            <td class="tdProduto">@item.CodigoCategoria</td>
-                        </tr>
-                    }
+                    <tr>
+                        <td class="tdPro">@item.codigo</td>
+                        <td class="tdPro">@item.descricao</td>
+                        <td class="tdPro">@item.unidademedida</td>
+                        <td class="tdPro">@item.estoqueatual</td>
+                        <td class="tdPro">@item.epermanente</td>
+                        <td class="tdPro">
+                            <div class="IconesContainerPro">
+                                <div class="Icone1Pro">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Pro">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
                 }
-                
-                    
-                
-                
             </tbody>
 
 
         </table>
     </div>
-    <div class="container3Produto">
+    <div class="container3Pro">
         <div>
-           
+            <button class="btnPro BtnAzulColorPro">
+                Voltar
+            </button>
         </div>
     </div>
 </div>
+
 

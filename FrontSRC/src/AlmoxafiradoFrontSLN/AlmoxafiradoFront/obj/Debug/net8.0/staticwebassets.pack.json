@@ -1,279 +1,299 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AlmoxafiradoFront.bundle.scp.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AlmoxafiradoFront.bundle.scp.css",
       "PackagePath": "staticwebassets\\AlmoxafiradoFront.t8mj3f1gom.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\Imagens\\pencil-square.svg",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\Imagens\\pencil-square.svg",
       "PackagePath": "staticwebassets\\Imagens\\pencil-square.svg"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\Imagens\\trash.svg",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\Imagens\\trash.svg",
       "PackagePath": "staticwebassets\\Imagens\\trash.svg"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoria.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Entrada.css",
+      "PackagePath": "staticwebassets\\css\\Entrada.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Estoque.css",
+      "PackagePath": "staticwebassets\\css\\Estoque.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Fornecedor.css",
+      "PackagePath": "staticwebassets\\css\\Fornecedor.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Fornecedorcreate.css",
+      "PackagePath": "staticwebassets\\css\\Fornecedorcreate.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Produto.css",
+      "PackagePath": "staticwebassets\\css\\Produto.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Produtocreate.css",
+      "PackagePath": "staticwebassets\\css\\Produtocreate.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Saida.css",
+      "PackagePath": "staticwebassets\\css\\Saida.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Secretaria.css",
+      "PackagePath": "staticwebassets\\css\\Secretaria.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoria.css",
       "PackagePath": "staticwebassets\\css\\categoria.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\entrada.css",
-      "PackagePath": "staticwebassets\\css\\entrada.css"
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoriacreate.css",
+      "PackagePath": "staticwebassets\\css\\categoriacreate.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\fornecedor.css",
-      "PackagePath": "staticwebassets\\css\\fornecedor.css"
-    },
-    {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\produtos.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\produtos.css",
       "PackagePath": "staticwebassets\\css\\produtos.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\saida.css",
-      "PackagePath": "staticwebassets\\css\\saida.css"
-    },
-    {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\secretaria.css",
-      "PackagePath": "staticwebassets\\css\\secretaria.css"
-    },
-    {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

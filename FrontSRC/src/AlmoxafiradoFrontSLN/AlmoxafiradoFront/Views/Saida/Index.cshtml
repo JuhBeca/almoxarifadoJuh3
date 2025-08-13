@@ -1,45 +1,65 @@
-﻿<div id="container" class="containerSaida">
-    <div class="container1Saida">
+﻿<div id="container" class="containerSai">
+    <div class="container1Sai">
         <div>
-            <a class="btn btn-success" href="/Saida/Create"> Novo</a>
-            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
+            <a class="btnSai" href="/Saida/Create">Novo
+            </a>
         </div>
     </div>
-    <div class="container2Saida">
-        <table class="TableContainerSaida">
-            <thead class="theadSaida">
-                <tr>
-                    <th>Código</th>
-                    <th>Descrição</th>
-                    <th>Quantidade Atual</th>
-                    <th>Quantidade de Saída</th>
-                </tr>
+    <div class="container2Sai">
+        <table class="TableContainerSai">
+            <thead class="theadSai">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Quantidade atual
+            </th>
+            <th>
+                Quantidade de Saida
+            </th>
+            <th>
+                Opções
+            </th>
             </thead>
             <tbody>
-                @if (ViewBag.Saida != null){
-                @foreach (var item in ViewBag.Saida)
+
+                @foreach (var item in ViewBag.Saidas)
                 {
                     <tr>
-                        <td class="tdSaida">@item.codigo</td>
-                        <td class="tdSaida">@item.descricao</td>
-                        <td class="tdSaida">@item.Quantidadeatual</td>
-                        <td class="tdSaida">@item.QuantidadedeSaida</td>
-                        <td class="tdSaida">
-                           
+                        <td class="tdSai">@item.codigo</td>
+                        <td class="tdSai">@item.descricao</td>
+                        <td class="tdSai">@item.quantidadeatual</td>
+                        <td class="tdSai">@item.quantidadedeSaida</td>
+                        <td class="tdSai">
+                            <div class="IconesContainerSai">
+                                <div class="Icone1Sai">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Sai">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
                         </td>
                     </tr>
 
-                }
                 }
             </tbody>
 
 
         </table>
     </div>
-    <div class="container3Saida">
+    <div class="container3Sai">
         <div>
-            
+            <button class="btnSai BtnAzulColorSai">
+                Voltar
+            </button>
         </div>
     </div>
 </div>
-

@@ -1,60 +1,70 @@
-﻿<div id="container" class="containerFornecedor">
-    <div class="container1Fornecedor">
+﻿<div id="container" class="containerFor">
+    <div class="container1For">
         <div>
-            <a class="btn btn-success" href="/Fornecedor/Create"> Novo</a>
-            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
+            <a class="btnFor" href="/Fornecedor/Create">
+                Novo
+            </a>
         </div>
     </div>
-    <div class="container2Fornecedor">
-        <table class="TableContainerFornecedor">
-            <thead class="theadFornecedor">
-                <th>
-                    Código
-                </th>
-                <th>
-                    Nome
-                </th>
-                <th>
-                    Telefone
-                </th>
-                <th>
-                    Estado
-                </th>
-                <th>
-                    Cidade
-                </th>
-                <th>
-                    CNPJ
-                </th>
-
+    <div class="container2For">
+        <table class="TableContainerFor">
+            <thead class="theadFor">
+            <th>
+                Nome
+            </th>
+            <th>
+                Telefone
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
+                CNPJ
+            </th>
+            <th>
+                Opções
+            </th>
             </thead>
             <tbody>
-                @if (ViewBag.Categoria != null)
+
+                @foreach (var item in ViewBag.Fornecedor)
                 {
-                    @foreach (var item in ViewBag.Fornecedor)
-                    {
-                        <tr>
-                            <td class="tdFornecedor">@item.codigo</td>
-                        <td class="tdFornecedor">@item.nome</td>
-                        <td class="tdFornecedor">@item.Telefone</td>
-                        <td class="tdFornecedor">@item.Estado</td>
-                        <td class="tdFornecedor">@item.Cidade</td>
-                        <td class="tdFornecedor">@item.CNPJ</td>
-                        <td class="tdFornecedor">
-                           
+                    <tr>
+                        <td class="tdFor">@item.nome</td>
+                        <td class="tdFor">@item.telefone</td>
+                        <td class="tdFor">@item.estado</td>
+                        <td class="tdFor">@item.cidade</td>
+                        <td class="tdFor">@item.cnpj</td>
+                        <td class="tdFor">
+                            <div class="IconesContainerFor">
+                                <div class="Icone1For">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2For">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
                         </td>
                     </tr>
 
-                }}
-                
+                }
             </tbody>
 
 
         </table>
     </div>
-    <div class="container3Fornecedor">
+    <div class="containerFor">
         <div>
-            
+            <button class="btnFor BtnAzulColorFor">
+                Voltar
+            </button>
         </div>
     </div>
 </div>

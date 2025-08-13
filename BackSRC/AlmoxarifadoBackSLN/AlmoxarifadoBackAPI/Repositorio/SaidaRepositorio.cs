@@ -18,9 +18,9 @@ namespace AlmoxarifadoBackAPI.Repositorio
             _db.SaveChanges();
         }
 
-        public List<Saida> GetAll()
-        {
-            return _db.Saida.ToList();
+        public List<Saida> GetAll() { 
+          return _db.Saida.ToList();
         }
+
     }
 }

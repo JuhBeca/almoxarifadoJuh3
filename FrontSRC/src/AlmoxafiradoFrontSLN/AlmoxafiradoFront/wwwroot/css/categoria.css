@@ -14,41 +14,35 @@
     /* background-color: black; */
     display: flex;
     align-items: center;
-    margin : 10px;
 }
 
 .container2Categoria {
     width: 100%;
-    height: 70%;
+    height: 90%;
     /* background-color: green; */
 }
 
-
+.container3Categoria {
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .btnCategoria {
     padding: 0.3rem;
     width: 100px;
-    background-color: seagreen;
+    background-color: aquamarine;
     border-radius: 5px;
     border: 0;
     color: white;
     font-weight: bolder;
 }
 
-.btnCategoria:hover{
-    cursor: pointer;
-    background-color:palegreen;
-    color : black;
-}
-
 .BtnAzulColorCategoria {
-    background-color: dodgerblue;
-}
-
-.BtnAzulColorCategoria:hover {
-    cursor: pointer;
-    background-color:deepskyblue;
-    color: black;
+    background-color: cyan !important;
 }
 
 .theadCategoria {
@@ -59,6 +53,7 @@
 
 .TableContainerCategoria {
     width: 100%;
+    height: 180px;
     font-size: 15pt !important;
 }
 
@@ -72,19 +67,36 @@
 }
 
 .Icone1Categoria {
-    background-color: red;
-    width: 50px;
-    height: 50px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
-
+.trash-btn{
+    background-color:#ffff;
+    border-color:white;
+}
+.trash-btn:hover  {
+    background-color: #b6ff00;
+}
+fas fa-edit{
+    background-color: black;
+}
 .Icone2Categoria {
-    background-color: yellow;
-    width: 50px;
-    height: 50px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
+.edit-button {
+    background-color: #ffff;
+    border-color: white;
+}
 
+    .edit-button:hover {
+        background-color: #b6ff00;
+        cursor: pointer;
+    }
 .IconesContainerCategoria {
     display: flex;
     justify-content: center;

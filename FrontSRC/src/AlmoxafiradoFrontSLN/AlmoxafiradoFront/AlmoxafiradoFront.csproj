@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Imagens\" />
+    <Compile Remove="Controllers\EstoqueController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Categoria\Index1.cshtml" />
   </ItemGroup>
 
 </Project>

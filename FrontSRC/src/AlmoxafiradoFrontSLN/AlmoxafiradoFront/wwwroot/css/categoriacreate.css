@@ -1,0 +1,79 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+bodycatcre {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.containercatcre {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1catcre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-groupcatcre {
+    margin-bottom: 15px;
+}
+
+labelcatcre {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-buttonscatcre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btncatcre {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.savecatcre {
+    background-color: #4CAF50;
+    color: white;
+}
+
+    .savecatcre:hover {
+        background-color: #45a049;
+    }
+
+.backcatcre {
+    background-color: #f44336;
+    color: white;
+}
+
+    .backcatcre:hover {
+        background-color: #e53935;
+    }

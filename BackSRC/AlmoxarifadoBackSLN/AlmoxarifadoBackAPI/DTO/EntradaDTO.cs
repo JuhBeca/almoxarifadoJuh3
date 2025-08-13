@@ -2,6 +2,6 @@
 {
     public class EntradaDTO
     {
-        public int Codigo {  get; set; }
+        public int Codigo { get; set; }
     }
 }

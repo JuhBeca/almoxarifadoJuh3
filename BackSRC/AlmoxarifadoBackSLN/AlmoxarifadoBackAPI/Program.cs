@@ -1,4 +1,5 @@
 using AlmoxarifadoBackAPI.Repositorio;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,10 +16,11 @@ builder.Services.AddDbContext<Context>(options =>
 //builder.Services.AddScoped<CategoriaRepositorio>();
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
-builder.Services.AddScoped<ISecretariaRepositorio, SecretariaRepositorio>();
 builder.Services.AddScoped<IFornecedorRepositorio, FornecedorRepositorio>();
+builder.Services.AddScoped<ISecretariaRepositorio, SecretariaRepositorio>();
 builder.Services.AddScoped<IEntradaRepositorio, EntradaRepositorio>();
 builder.Services.AddScoped<ISaidaRepositorio, SaidaRepositorio>();
+
 
 
 

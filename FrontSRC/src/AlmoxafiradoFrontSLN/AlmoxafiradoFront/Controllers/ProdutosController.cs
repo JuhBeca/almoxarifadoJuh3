@@ -6,7 +6,7 @@ using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
 {
-    public class ProdutoController : Controller
+    public class ProdutosController : Controller
     {
         public  IActionResult Index()
         {

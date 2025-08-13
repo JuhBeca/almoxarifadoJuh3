@@ -4,9 +4,10 @@ namespace AlmoxarifadoBackAPI.Repositorio
 {
     public interface IFornecedorRepositorio
     {
-        void Add(Fornecedor fornecedor);
+        void Add(Fornecedor obj);
 
         List<Fornecedor> GetAll();
+
+        
     }
 }
-

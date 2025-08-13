@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/categoria.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/entrada.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/fornecedor.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/produtos.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/secretaria.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/saida.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/categoriacreate.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Produto.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Produtocreate.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Fornecedor.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Fornecedorcreate.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Secretaria.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Entrada.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Saida.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AlmoxafiradoFront.styles.css" asp-append-version="true" />
 </head>
 <body>
     <div class="cabecalho">
         <div class="menu">
-            <div class="itemmenu">
-                <a class=" btn btn" href="https://localhost:7215/Produto">Produto</a>
+            <a class="itemmenu" href="/Produto">
+                <span class="itemtexto">Produto</span>
+            </a>
+            <a class="itemmenu" href="/Entrada">
+                <span class="itemtexto">Entrada</span>
+            </a>
+            <a class="itemmenu" href="/Saida">
+                <span class="itemtexto">Saída</span>
+            </a>
+            <a class="itemmenu" href="/Categoria">
+                <span class="itemtexto">Categoria</span>
+            </a>
+            <a class="itemmenu" href="/Fornecedor">
+                <span class="itemtexto">Fornecedor</span>
+            </a>
+                <a class="itemmenu" href="/Secretaria">
+                    <span class="itemtexto">Secretaria</span>
+                </a>
+            </a>
+            <a class="itemmenu" href="/Estoque">
+                <span class="itemtexto">Estoque</span>
+            </a>
             </div>
-            <div class="itemmenu">
-                <a class=" btn btn" href="https://localhost:7215/Entrada">Entrada</a>
-            </div>
-            <div class="itemmenu">
-                <a class=" btn btn" href="https://localhost:7215/Saida">Saida</a>
-            </div>
-            <div class="itemmenu">
-                <a class=" btn btn" href="https://localhost:7215/Categoria">Categoria</a>
-            </div>
-            <div class="itemmenu">
-                <a class=" btn btn" href="https://localhost:7215/Fornecedor">Fornecedor</a>
-            </div>
-            <div class="itemmenu">
-                <a class=" btn btn" href="https://localhost:7215/Secretaria">Secretaria</a>
-            </div>
-
         </div>
         <div class="perfil">
-            <span class="pessoa">Juh</span>
+            <span class="pessoa">LuizEVE</span>
             <span class="loginlogoff">Logoff</span>
         </div>
     </div>
@@ -47,6 +55,5 @@
                @RenderBody()
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

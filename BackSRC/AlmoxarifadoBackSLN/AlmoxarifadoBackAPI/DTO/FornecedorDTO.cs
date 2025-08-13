@@ -2,7 +2,7 @@
 {
     public class FornecedorDTO
     {
-        public int codigo { get; set; }
+        public int Codigo { get; set; }
         
     }
 }

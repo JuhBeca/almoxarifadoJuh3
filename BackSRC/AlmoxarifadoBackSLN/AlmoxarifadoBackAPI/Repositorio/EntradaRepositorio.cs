@@ -13,14 +13,14 @@ namespace AlmoxarifadoBackAPI.Repositorio
 
         public void Add(Entrada entrada)
         {
-
+            
             _db.Entrada.Add(entrada);
             _db.SaveChanges();
         }
 
-        public List<Entrada> GetAll()
-        {
-            return _db.Entrada.ToList();
+        public List<Entrada> GetAll() { 
+          return _db.Entrada.ToList();
         }
+
     }
 }

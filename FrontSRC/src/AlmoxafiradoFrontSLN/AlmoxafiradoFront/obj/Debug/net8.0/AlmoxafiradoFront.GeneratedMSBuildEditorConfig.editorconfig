@@ -9,93 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AlmoxafiradoFront
 build_property.RootNamespace = AlmoxafiradoFront
-build_property.ProjectDir = C:\Users\manha.cetafest\Documents\GitHub\almoxarifadoJuh3\FrontSRC\src\AlmoxafiradoFrontSLN\AlmoxafiradoFront\
+build_property.ProjectDir = C:\Users\tarde.cetafest\Documents\GitHub\almoxarifadoJuh3\FrontSRC\src\AlmoxafiradoFrontSLN\AlmoxafiradoFront\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\manha.cetafest\Documents\GitHub\almoxarifadoJuh3\FrontSRC\src\AlmoxafiradoFrontSLN\AlmoxafiradoFront
+build_property.MSBuildProjectDirectory = C:\Users\tarde.cetafest\Documents\GitHub\almoxarifadoJuh3\FrontSRC\src\AlmoxafiradoFrontSLN\AlmoxafiradoFront
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria/Create.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria/Index.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/Create.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxJbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/Create.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Estoque/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxJbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Home/Index.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Home/Privacy.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/Create.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Saida/Create.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Saida/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FpZGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Saida/Index.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Saida/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FpZGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Secretaria/Create.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Secretaria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0YXJpYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Secretaria/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0YXJpYVxJbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Secretaria/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0YXJpYVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/Error.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/_ViewImports.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/_ViewStart.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/_Layout - Cópia.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/_Layout - Cópia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQgLSBDw7NwaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-71smo9nifz
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/_Layout.cshtml]
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-g06rgfebqd

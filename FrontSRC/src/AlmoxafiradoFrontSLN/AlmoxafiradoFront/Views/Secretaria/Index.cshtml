@@ -1,62 +1,69 @@
-﻿<div id="container" class="containerSecretaria">
-    <div class="container1Secretaria">
+﻿<div id="container" class="containerSec">
+    <div class="container1Sec">
         <div>
-            <a class="btn btn-success" href="/Secretaria/Create"> Novo</a>
-            <a class="btn btn-primary" href="https://localhost:7215/"> Voltar</a>
+            <a class="btnSec" href="/Secretaria/Create">Novo
+            </a>
         </div>
     </div>
-    <div class="container2Secretaria">
-        <table class="TableContainerSecretaria">
-            <thead class="theadSecretaria">
+    <div class="container2Sec">
+        <table class="TableContainerSec">
+            <thead class="theadSec">
             <th>
-               NomeSec
-            </th>
-            <th>
-                EndereçoSec
-            </th>
-            <th>
-                Bairro
-            </th>
-            <th>
-                Cidade
-            </th>
-            <th>
-                EstadoSigla
+                Nome
             </th>
             <th>
                 Telefone
             </th>
             <th>
+                Estado
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
                 CNPJ
+            </th>
+            <th>
+                Opções
             </th>
             </thead>
             <tbody>
-                @if (ViewBag.Secretaria != null){
-                @foreach (var item in ViewBag.Secretaria )
+
+                @foreach (var item in ViewBag.Secretaria)
                 {
                     <tr>
-                        <td class="tdSecretaria">@item.NomeSec</td>
-                        <td class="tdSecretaria">@item.EnderecoSec</td>
-                        <td class="tdSecretaria">@item.Bairro</td>
-                        <td class="tdSecretaria">@item.Cidade</td>
-                        <td class="tdSecretaria">@item.EstadoSigla</td>
-                        <td class="tdSecretaria">@item.Telefone</td>
-                        <td class="tdSecretaria">@item.CNPJ</td>
-                        <td class="tdSecretaria">
-                           
+                        <td class="tdSec">@item.nome</td>
+                        <td class="tdSec">@item.telefone</td>
+                        <td class="tdSec">@item.estado</td>
+                        <td class="tdSec">@item.cidade</td>
+                        <td class="tdSec">@item.cnpj</td>
+                        <td class="tdSec">
+                            <div class="IconesContainerSec">
+                                <div class="Icone1Sec">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Sec">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
                         </td>
                     </tr>
 
-                }
                 }
             </tbody>
 
 
         </table>
     </div>
-    <div class="container3Secretaria">
+    <div class="containerSec">
         <div>
-           
+            <button class="btnFor BtnAzulColorSec">
+                Voltar
+            </button>
         </div>
     </div>
 </div>

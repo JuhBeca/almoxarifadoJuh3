@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-namespace AlmoxarifadoBackAPI.DTO
+﻿namespace AlmoxarifadoBackAPI.DTO
 {
     public class EntradaCadastroDTO
     {

@@ -1,5 +1,6 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 
@@ -9,16 +10,16 @@ namespace AlmoxafiradoFront.Controllers
     {
         public IActionResult Index()
         {
-            var url = "https://localhost:44366/listaFornecedor\r\n";
-            List<FornecedorDTO> fornecedor = new List<FornecedorDTO>();
+            var url = "https://localhost:44366/listaFornecedor";
+            List<FornecedorDTO> fornecedo = new List<FornecedorDTO>();
             using HttpClient client = new HttpClient();
             try
             {
                 HttpResponseMessage response = client.GetAsync(url).Result;
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
-                fornecedor = JsonSerializer.Deserialize<List<FornecedorDTO>>(json);
-                ViewBag.Fornecedor = fornecedor;
+                fornecedo = JsonSerializer.Deserialize<List<FornecedorDTO>>(json);
+                ViewBag.Fornecedor = fornecedo;
 
 
             }
@@ -35,39 +36,35 @@ namespace AlmoxafiradoFront.Controllers
         {
             return View();
         }
-
-
-        [HttpGet]
-        public IActionResult Cadastrar (string NomeFornecedor, string Endereco, string Bairro, string Telefone,  string Estado, string Cidade, string CNPJ)
+        [HttpPost]
+        public IActionResult Cadastro(string nome, string telefone, string estado, string cidade, string cnpj)
         {
-            var url = "https://localhost:5001/criarFornecedor";
 
+            var url = "https://localhost:44366/criarFornecedor";
             using HttpClient client = new HttpClient();
             try
             {
-                var fornecedorNovo = new FornecedorDTO
+                var forNova = new FornecedorDTONova
                 {
-                    NomeFornecedor = NomeFornecedor,
-                    Endereco = Endereco,
-                    Bairro = Bairro,
-                    Telefone = Telefone,
-                    Estado = Estado,
-                    Cidade = Cidade,
-                    CNPJ = CNPJ
-
+                    nome = nome,
+                    telefone = telefone,
+                    estado = estado,
+                    cidade = cidade,
+                    cnpj = cnpj,
+                    
                 };
-                var fornecedorSerializada = JsonSerializer.Serialize<FornecedorDTO>(fornecedorNovo);
-                var jsonContent = new StringContent(fornecedorSerializada, Encoding.UTF8, "application/json");
+                var forSerializada = JsonSerializer.Serialize<FornecedorDTONova>(forNova);
+
+                var jsonContent = new StringContent(forSerializada, Encoding.UTF8, "application/json");
 
                 HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
                 response.EnsureSuccessStatusCode();
             }
             catch (Exception)
             {
-                return RedirectToAction("index");
+                return View();
             }
-
-            return RedirectToAction("index");
+            return RedirectToAction("Index");
         }
     }
 }

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AlmoxarifadoBackAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SecretariaController : ControllerBase
     {
@@ -17,36 +17,36 @@ namespace AlmoxarifadoBackAPI.Controllers
 
         }
 
-        [HttpGet("/listasecretaria")]
-        public IActionResult listasecretaria()
+        [HttpGet("/listaSecretaria")]
+        public IActionResult listaSecretaria()
         {
             return Ok(_db.GetAll());
         }
 
-        [HttpPost("/secretaria")]
+        [HttpPost("/Secretaria")]
         public IActionResult listaSecretaria(SecretariaDTO secretaria)
         {
-            return Ok(_db.GetAll().Where(x => x.Codigo == secretaria.Codigo));
+            return Ok(_db.GetAll().Where(x=>x.Codigo==secretaria.Codigo));
         }
 
         [HttpPost("/criarSecretaria")]
-        public IActionResult criarSecretaria(SecretariaCadastroDTO secretaria)
+        public IActionResult criarSecretaria(SecretariacadastroDTO secretaria)
         {
 
-            var novaSecretaria = new Secretaria()
+            var novase = new Secretaria()
             {
-                NomeSecretaria = secretaria.NomeSecretaria,
-                Endereco = secretaria.Endereco,
-                Bairro = secretaria.Bairro,
+                Nome = secretaria.Nome,
                 Telefone = secretaria.Telefone,
                 Estado = secretaria.Estado,
                 Cidade = secretaria.Cidade,
-                CNPJ = secretaria.CNPJ
-
+                CNPJ = secretaria.CNPJ,
             };
-            //_categorias.Add(novaProduto);
-            _db.Add(novaSecretaria);
+            //_categorias.Add(novase);
+            _db.Add(novase);
             return Ok("Cadastro com Sucesso");
         }
+
+
+
     }
 }

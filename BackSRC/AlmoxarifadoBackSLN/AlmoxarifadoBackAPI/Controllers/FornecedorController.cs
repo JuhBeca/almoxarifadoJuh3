@@ -6,15 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AlmoxarifadoBackAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class FornecedorController : ControllerBase
     {
         private readonly IFornecedorRepositorio _db;
         public FornecedorController(IFornecedorRepositorio db)
         {
-            _db = db;
-
+            _db =db;
+      
         }
 
         [HttpGet("/listaFornecedor")]
@@ -23,30 +23,31 @@ namespace AlmoxarifadoBackAPI.Controllers
             return Ok(_db.GetAll());
         }
 
-        [HttpPost("/fornecedor")]
+        [HttpPost("/Fornecedor")]
         public IActionResult listaFornecedor(FornecedorDTO fornecedor)
         {
-            return Ok(_db.GetAll().Where(x => x.Codigo == fornecedor.codigo));
+            return Ok(_db.GetAll().Where(x => x.Codigo == fornecedor.Codigo));
         }
 
         [HttpPost("/criarFornecedor")]
         public IActionResult criarFornecedor(FornecedorCadastroDTO fornecedor)
         {
 
-            var novoFornecedor = new Fornecedor()
+            var novafor = new Fornecedor()
             {
-                NomeFornecedor = fornecedor.NomeFornecedor,
-                Endereco = fornecedor.Endereco,
-                Bairro = fornecedor.Bairro,
+                Nome = fornecedor.Nome,
                 Telefone = fornecedor.Telefone,
                 Estado = fornecedor.Estado,
                 Cidade = fornecedor.Cidade,
-                CNPJ = fornecedor.CNPJ
+                CNPJ = fornecedor.CNPJ,
 
             };
-            //_categorias.Add(novaCategoria);
-            _db.Add(novoFornecedor);
+            //_categorias.Add(novafor);
+            _db.Add(novafor);
             return Ok("Cadastro com Sucesso");
         }
+
+
+
     }
 }

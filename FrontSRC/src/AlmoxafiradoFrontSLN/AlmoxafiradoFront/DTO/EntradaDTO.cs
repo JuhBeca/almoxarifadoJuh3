@@ -2,9 +2,9 @@
 {
     public class EntradaDTO
     {
-        public int Codigo { get; set; }
+        public int codigo {  get; set; }
         public string descricao { get; set; }
-        public int DATAENTRADA { get; set; }
-        public string QUANTIDADEATUAL { get; set; }
+        public string dataentrada { get; set; }
+        public string quantidadeatual { get; set; }
     }
 }

@@ -36,9 +36,9 @@ namespace AlmoxarifadoBackAPI.Controllers
             var novaProduto = new Produto()
             {               
                 Descricao = produto.Descricao,
-                UnMedida = produto.UnMedida,
+                UnidadeMedida = produto.UnidadeMedida,
                 EstoqueAtual = produto.EstoqueAtual,
-                EPermanente = produto.EPermanente,
+                Epermanente = produto.Epermanente,
                 CodigoCategoria = produto.CodigoCategoria,
 
             };

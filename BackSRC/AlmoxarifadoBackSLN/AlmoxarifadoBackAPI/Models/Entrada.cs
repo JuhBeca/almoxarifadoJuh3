@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-namespace AlmoxarifadoBackAPI.Models
+﻿namespace AlmoxarifadoBackAPI.Models
 {
     public class Entrada
     {
