@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\entradacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\dto\\entradadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\dto\\entradadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\views\\entrada\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\views\\entrada\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\fornecedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\saidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\saidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\secretariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\secretariacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\views\\produto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|c:\\users\\tarde.cetafest\\documents\\github\\almoxarifadojuh3\\frontsrc\\src\\almoxafiradofrontsln\\almoxafiradofront\\dto\\produtodtonova.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0A62D74-A9EF-406C-9FC1-A3702CD2A00F}|AlmoxafiradoFront\\AlmoxafiradoFront.csproj|solutionrelative:almoxafiradofront\\dto\\produtodtonova.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -59,19 +95,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-13T18:57:11.089Z",
+              "Title": "EntradaController.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\EntradaController.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\EntradaController.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\EntradaController.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\EntradaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:59:34.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Entrada\\Index.cshtml",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Entrada\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Entrada\\Index.cshtml",
+              "RelativeToolTip": "AlmoxafiradoFront\\Views\\Entrada\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T18:57:20.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntradaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\EntradaDTO.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\DTO\\EntradaDTO.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\EntradaDTO.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\DTO\\EntradaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:56:44.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "AlmoxafiradoFront\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T18:53:32.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SaidaController.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\SaidaController.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\SaidaController.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\SaidaController.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\SaidaController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:51:20.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Estoque\\Index.cshtml",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Estoque\\Index.cshtml",
@@ -79,12 +167,11 @@
               "RelativeToolTip": "AlmoxafiradoFront\\Views\\Estoque\\Index.cshtml",
               "ViewState": "AgIAAIEAAAAAAAAAAAAmwJsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T11:28:16.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T11:28:16.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Fornecedor\\Create.cshtml",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Fornecedor\\Create.cshtml",
@@ -96,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "FornecedorDTONova.cs",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\FornecedorDTONova.cs",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\DTO\\FornecedorDTONova.cs",
@@ -108,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "ProdutoDTONova.cs",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\ProdutoDTONova.cs",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\DTO\\ProdutoDTONova.cs",
@@ -120,26 +207,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAhwAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T12:30:07.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:51:28.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AlmoxafiradoFront\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T18:57:11.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SecretariaController.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\SecretariaController.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\SecretariaController.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\SecretariaController.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\SecretariaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:49:28.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FornecedorController.cs",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\FornecedorController.cs",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\FornecedorController.cs",
               "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\FornecedorController.cs",
               "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\FornecedorController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAIwC4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T12:30:07.433Z",
               "EditorCaption": ""
@@ -147,6 +273,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwDYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:30:07.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProdutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\ProdutoDTO.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\DTO\\ProdutoDTO.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\ProdutoDTO.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\DTO\\ProdutoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T18:50:25.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Views\\Produto\\Create.cshtml",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Views\\Produto\\Create.cshtml",
@@ -158,33 +310,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwEIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "AlmoxafiradoFront\\DTO\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\DTO\\CategoriaDTO.cs",
+              "RelativeToolTip": "AlmoxafiradoFront\\DTO\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:30:07.443Z",
+              "WhenOpened": "2025-08-15T18:48:39.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\Controllers\\ProdutosController.cs",
               "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "AlmoxafiradoFront\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T18:55:13.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Estoque.css",
               "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Estoque.css",
               "RelativeDocumentMoniker": "AlmoxafiradoFront\\wwwroot\\css\\Estoque.css",

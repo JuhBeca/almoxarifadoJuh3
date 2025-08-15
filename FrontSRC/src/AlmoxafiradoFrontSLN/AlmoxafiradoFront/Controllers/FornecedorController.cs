@@ -44,7 +44,7 @@ namespace AlmoxafiradoFront.Controllers
             using HttpClient client = new HttpClient();
             try
             {
-                var forNova = new FornecedorDTONova
+                var forNova = new FornecedorDTO
                 {
                     nome = nome,
                     telefone = telefone,
@@ -53,7 +53,7 @@ namespace AlmoxafiradoFront.Controllers
                     cnpj = cnpj,
                     
                 };
-                var forSerializada = JsonSerializer.Serialize<FornecedorDTONova>(forNova);
+                var forSerializada = JsonSerializer.Serialize<FornecedorDTO>(forNova);
 
                 var jsonContent = new StringContent(forSerializada, Encoding.UTF8, "application/json");
 

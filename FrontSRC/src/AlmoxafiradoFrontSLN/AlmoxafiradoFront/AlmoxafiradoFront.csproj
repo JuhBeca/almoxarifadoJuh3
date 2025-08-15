@@ -7,7 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Estoque\**" />
+    <Content Remove="Views\Estoque\**" />
+    <EmbeddedResource Remove="Views\Estoque\**" />
+    <None Remove="Views\Estoque\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\EstoqueController.cs" />
+    <Compile Remove="Controllers\ProdutosController.cs" />
+    <Compile Remove="DTO\CategoriaDTONova.cs" />
+    <Compile Remove="DTO\EstoqueDTO.cs" />
+    <Compile Remove="DTO\EstoqueDTONova.cs" />
+    <Compile Remove="DTO\FornecedorDTONova.cs" />
+    <Compile Remove="DTO\ProdutoDTONova.cs" />
+    <Compile Remove="DTO\ProdutosDTO .cs" />
   </ItemGroup>
 
   <ItemGroup>

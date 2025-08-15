@@ -32,20 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxpbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Estoque/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZVxJbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxpbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Fornecedor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Home/Index.cshtml]
@@ -60,8 +56,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xpbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Saida/Create.cshtml]
@@ -76,8 +72,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0YXJpYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Secretaria/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0YXJpYVxpbmRleC5jc2h0bWw=
+[C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Secretaria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0YXJpYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tarde.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Shared/Error.cshtml]

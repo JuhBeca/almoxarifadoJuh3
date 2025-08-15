@@ -44,7 +44,7 @@ namespace AlmoxafiradoFront.Controllers
             using HttpClient client = new HttpClient();
             try
             {
-                var produtoNova = new ProdutoDTONova
+                var produtoNova = new ProdutoDTO
                 {
                     descricao = descricao,
                     unidademedida = unidademedida,
@@ -52,7 +52,7 @@ namespace AlmoxafiradoFront.Controllers
                     epermanente = epermanente,
                     codigocategoria = categoria
                 };
-                var proSerializada = JsonSerializer.Serialize<ProdutoDTONova>(produtoNova);
+                var proSerializada = JsonSerializer.Serialize<ProdutoDTO>(produtoNova);
 
                 var jsonContent = new StringContent(proSerializada, Encoding.UTF8, "application/json");
 

@@ -13,16 +13,8 @@
       "PackagePath": "staticwebassets\\Imagens\\trash.svg"
     },
     {
-      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Entrada.css",
-      "PackagePath": "staticwebassets\\css\\Entrada.css"
-    },
-    {
       "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Estoque.css",
       "PackagePath": "staticwebassets\\css\\Estoque.css"
-    },
-    {
-      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Fornecedor.css",
-      "PackagePath": "staticwebassets\\css\\Fornecedor.css"
     },
     {
       "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Fornecedorcreate.css",
@@ -37,14 +29,6 @@
       "PackagePath": "staticwebassets\\css\\Produtocreate.css"
     },
     {
-      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Saida.css",
-      "PackagePath": "staticwebassets\\css\\Saida.css"
-    },
-    {
-      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Secretaria.css",
-      "PackagePath": "staticwebassets\\css\\Secretaria.css"
-    },
-    {
       "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoria.css",
       "PackagePath": "staticwebassets\\css\\categoria.css"
     },
@@ -53,8 +37,24 @@
       "PackagePath": "staticwebassets\\css\\categoriacreate.css"
     },
     {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\entrada.css",
+      "PackagePath": "staticwebassets\\css\\entrada.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\fornecedor.css",
+      "PackagePath": "staticwebassets\\css\\fornecedor.css"
+    },
+    {
       "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\produtos.css",
       "PackagePath": "staticwebassets\\css\\produtos.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\saida.css",
+      "PackagePath": "staticwebassets\\css\\saida.css"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\secretaria.css",
+      "PackagePath": "staticwebassets\\css\\secretaria.css"
     },
     {
       "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\site.css",

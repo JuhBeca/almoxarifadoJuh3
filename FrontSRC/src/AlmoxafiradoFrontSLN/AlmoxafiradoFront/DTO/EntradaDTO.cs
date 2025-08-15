@@ -2,9 +2,9 @@
 {
     public class EntradaDTO
     {
-        public int codigo {  get; set; }
-        public string descricao { get; set; }
-        public string dataentrada { get; set; }
-        public string quantidadeatual { get; set; }
+        public int codigo { get; set; }
+        public DateTime dataEntrada { get; set; }
+        public int codigoFronecedor { get; set; }
+        public string observacao { get; set; }
     }
 }

@@ -1,61 +1,65 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Text;
 using System.Text.Json;
+using System.Text;
 
-namespace AlmoxafiradoFront.Controllers
+public class CategoriasController : Controller
 {
-    public class EstoqueController : Controller
+    public IActionResult Index()
     {
-        public  IActionResult Index()
+        var url = "https://localhost:44366/lista";
+        List<CategoriaDTO> categorias = new List<CategoriaDTO>();
+        using HttpClient client = new HttpClient();
+        try
         {
-            var url = "https://localhost:44366/listaEstoque";
-            List <EstoqueDTO> estoques = new List < EstoqueDTO> ();
-            using HttpClient client = new HttpClient();
-            try
-            {
-                HttpResponseMessage response =  client.GetAsync(url).Result ;
-                response.EnsureSuccessStatusCode();
-                string json =  response.Content.ReadAsStringAsync().Result;
-                 estoques = JsonSerializer.Deserialize<List<EstoqueDTO>>(json); 
-                 ViewBag.Estoques = estoques;
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            response.EnsureSuccessStatusCode();
+            string json = response.Content.ReadAsStringAsync().Result;
+            categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
+            ViewBag.Categorias = categorias;
 
 
-            }
-            catch (Exception)
+        }
+        catch (Exception)
+        {
+            return View();
+
+        }
+
+        return View();
+    }
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult Cadastrar(string descricao )
+    {
+        var url = "https://localhost:7215/criarCategoria";
+
+        using HttpClient client = new HttpClient();
+        try
+        {
+            var CategoriasNovo = new CategoriaDTO
             {
-                return View();
+                descricao = descricao,
                 
-            }
+            };
+            var CategoriasSerializada = JsonSerializer.Serialize<CategoriaDTO>(CategoriasNovo);
+            var jsonContent = new StringContent(CategoriasSerializada, Encoding.UTF8, "application/json");
 
-            return View();
+            HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+            response.EnsureSuccessStatusCode();
         }
-        [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Cadastrar(string produto, int quantidade)
-        {
-            var url = "https://localhost:44366/criarEstoque";
-            using HttpClient client = new HttpClient();
-            try
-            {
-                var Estoquenova = new EstoqueDTONova { produto = produto };
-                var estoqueSerializada= JsonSerializer.Serialize<EstoqueDTONova>(Estoquenova);
 
-                var jsonContent = new StringContent(estoqueSerializada, Encoding.UTF8, "application/json");
+        catch (Exception)
+        {
 
-                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
-                response.EnsureSuccessStatusCode();
-            }
-            catch(Exception)
-            {
-                return View();
-            }
             return RedirectToAction("Index");
         }
+        return RedirectToAction("Index");
     }
 }
+
