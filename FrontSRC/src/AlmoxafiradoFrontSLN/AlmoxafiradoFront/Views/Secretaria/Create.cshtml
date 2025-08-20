@@ -3,4 +3,50 @@
 *@
 @{
 }
-<h1>Cadastrar Secretaria</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Secretaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="containerfor">
+        <h1for>Cadastro de Secretaria</h1for>
+        <form action="/secretaria/Cadastro" method="post">
+
+
+            <div class="form-groupfor">
+                <labelfor for="nome">Nome:</labelfor>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="form-groupfor">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="form-groupfor">
+                <labelfor for="estado">Estado:</labelfor>
+                <input type="text" id="estado" name="estado" required>
+            </div>
+
+            <div class="form-groupfor">
+                <labelfor for="cidade">Cidade:</labelfor>
+                <input type="text" id="cidade" name="cidade" required>
+            </div>
+
+            <div class="form-groupfor">
+                <labelfor for="cnpj">CNPJ:</labelfor>
+                <input type="text" id="cnpj" name="cnpj" required>
+            </div>
+
+            <div class="buttonsfor">
+                <button type="submit" class="btnfor salvarfor">Salvar</button>
+                <button type="button" class="btnfor voltarfor" onclick="window.location.href='index.html';">Voltar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

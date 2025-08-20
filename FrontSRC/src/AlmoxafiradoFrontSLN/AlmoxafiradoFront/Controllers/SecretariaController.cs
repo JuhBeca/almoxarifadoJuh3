@@ -1,6 +1,7 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Text;
 using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
@@ -30,6 +31,38 @@ namespace AlmoxafiradoFront.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Cadastro(string nome, string telefone, string estado, string cidade, string cnpj)
+        {
+
+            var url = "https://localhost:44366/criarSecretaria";
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var secNova = new SecretariaDTO
+                {
+                    nome = nome,
+                    telefone = telefone,
+                    estado = estado,
+                    cidade = cidade,
+                    cnpj = cnpj,
+
+                };
+                var secSerializada = JsonSerializer.Serialize<SecretariaDTO>(secNova);
+
+                var jsonContent = new StringContent(secSerializada, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+                response.EnsureSuccessStatusCode();
+            }
+            catch (Exception)
+            {
+                return View();
+            }
+            return RedirectToAction("Index");
+        }
+
         [HttpGet]
         public IActionResult Create()
         {

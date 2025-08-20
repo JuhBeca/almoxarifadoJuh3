@@ -24,9 +24,9 @@ namespace AlmoxarifadoBackAPI.Controllers
         }
 
         [HttpPost("/produto")]
-        public IActionResult listaProdutos(ProdutoDTO categoria)
+        public IActionResult listaProdutos(ProdutoDTO produto)
         {
-            return Ok(_db.GetAll().Where(x=>x.Codigo==categoria.Codigo));
+            return Ok(_db.GetAll().Where(x=>x.Codigo==produto.Codigo));
         }
 
         [HttpPost("/criarproduto")]

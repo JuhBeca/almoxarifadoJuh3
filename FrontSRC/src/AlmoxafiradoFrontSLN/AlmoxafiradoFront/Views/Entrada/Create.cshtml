@@ -3,4 +3,42 @@
 *@
 @{
 }
-<h1>Cadastra Entrada</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Entrada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<bodycatcre>
+
+    <div class="containercatcre">
+        <h1catcre>Cadastro de Entrada</h1catcre>
+        <form action="/entrada/Cadastro" method="post">
+
+
+            <div class="form-groupcatcre">
+                <label for="dataEntrada">Data da Entrada:</label>
+                <input type="datetime-local" id="dataEntrada" name="dataEntrada" required>
+            </div>
+
+            <div class="form-groupcatcre">
+                <label for="codigoFronecedor">Codigo do fornecedor:</label>
+                <input type="number" id="codigoFronecedor" name="codigoFronecedor" required>
+            </div>
+
+            <div class="form-groupcatcre">
+                <label for="observacao">Observação:</label>
+                <input type="text" id="observacao" name="observacao" required>
+            </div>
+
+            <div class="form-buttonscatcre">
+                <button type="submit" class="btncatcre savecatcre">Salvar</button>
+                <button type="button" class="btncatcre backcatcre" onclick="window.history.back();">Voltar</button>
+            </div>
+        </form>
+    </div>
+
+</bodycatcre>
+</html>
