@@ -31,13 +31,39 @@ namespace AlmoxafiradoFront.Controllers
 
             return View();
         }
+
+        [HttpGet]
+        public IActionResult ProZero()
+        {
+            var url = "https://localhost:44366/listaproZero";
+            List<ProdutoDTO> produtos = new List<ProdutoDTO>();
+            using HttpClient client = new HttpClient();
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(url).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                produtos = JsonSerializer.Deserialize<List<ProdutoDTO>>(json);
+                ViewBag.Produtos = produtos;
+
+
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+
+            return View();
+        }
+
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
         [HttpPost]
-        public IActionResult Cadastro(string descricao, string unidademedida, float estoqueatual, bool epermanente, int categoria  )
+        public IActionResult Cadastro(string descricao, string unidadeMedida, float estoqueAtual, bool epermanente, int codigoCategoria  )
         {
        
             var url = "https://localhost:44366/criarproduto";
@@ -47,10 +73,10 @@ namespace AlmoxafiradoFront.Controllers
                 var produtoNova = new ProdutoDTO
                 {
                     descricao = descricao,
-                    unidademedida = unidademedida,
-                    estoqueatual = estoqueatual,
+                    unidadeMedida = unidadeMedida,
+                    estoqueAtual = estoqueAtual,
                     epermanente = epermanente,
-                    codigocategoria = categoria
+                    codigoCategoria = codigoCategoria
                 };
                 var proSerializada = JsonSerializer.Serialize<ProdutoDTO>(produtoNova);
 

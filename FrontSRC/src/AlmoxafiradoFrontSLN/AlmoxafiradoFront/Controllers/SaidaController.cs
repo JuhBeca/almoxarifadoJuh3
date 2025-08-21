@@ -41,7 +41,7 @@ namespace AlmoxafiradoFront.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastro(DateTime dataSaida, int codigoSecretaria, string observacao)
+        public IActionResult Cadastro(DateTime dataSaida, int codigoSecretaria, int codigoProduto, int quantidade, string observacao)
         {
 
             var url = "https://localhost:44366/criarSaida";
@@ -52,6 +52,8 @@ namespace AlmoxafiradoFront.Controllers
                 {
                     dataSaida = dataSaida,
                     codigoSecretaria = codigoSecretaria,
+                    codigoProduto = codigoProduto,
+                    quantidade = quantidade,
                     observacao = observacao
                 };
                 var entSerializada = JsonSerializer.Serialize<SaidaDTO>(entradaNova);

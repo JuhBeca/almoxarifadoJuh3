@@ -2,6 +2,7 @@
 {
     public class SecretariaDTO
     {
+        public int codigo { get; set; }
         public string nome { get; set; }
         public string telefone { get; set; }
         public string estado { get; set; }

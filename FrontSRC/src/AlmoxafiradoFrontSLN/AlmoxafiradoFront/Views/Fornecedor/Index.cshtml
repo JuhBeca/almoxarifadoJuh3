@@ -9,6 +9,10 @@
     <div class="container2For">
         <table class="TableContainerFor">
             <thead class="theadFor">
+
+            <th>
+                Codigo
+            </th>
             <th>
                 Nome
             </th>
@@ -33,6 +37,7 @@
                 @foreach (var item in ViewBag.Fornecedor)
                 {
                     <tr>
+                        <td class="tdFor">@item.codigo</td>
                         <td class="tdFor">@item.nome</td>
                         <td class="tdFor">@item.telefone</td>
                         <td class="tdFor">@item.estado</td>

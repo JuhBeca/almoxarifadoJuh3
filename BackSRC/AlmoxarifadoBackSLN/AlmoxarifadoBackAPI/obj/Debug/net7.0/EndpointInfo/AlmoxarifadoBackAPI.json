@@ -239,6 +239,30 @@
         }
       }
     },
+    "/listaproZero": {
+      "get": {
+        "tags": [
+          "Produto"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/ranking-produtos": {
+      "get": {
+        "tags": [
+          "Produto"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/produto": {
       "post": {
         "tags": [
@@ -483,6 +507,14 @@
             "type": "integer",
             "format": "int32"
           },
+          "codigoProduto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidade": {
+            "type": "integer",
+            "format": "int32"
+          },
           "observacao": {
             "type": "string",
             "nullable": true
@@ -579,6 +611,14 @@
             "format": "date-time"
           },
           "codigoSecretaria": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codigoProduto": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidade": {
             "type": "integer",
             "format": "int32"
           },

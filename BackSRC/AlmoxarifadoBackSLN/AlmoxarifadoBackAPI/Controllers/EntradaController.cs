@@ -38,6 +38,8 @@ namespace AlmoxarifadoBackAPI.Controllers
             {
                 DataEntrada = entrada.DataEntrada,
                 CodigoFronecedor = entrada.CodigoFronecedor,
+                CodigoProduto = entrada.CodigoProduto,
+                Quantidade = entrada.Quantidade,
                 Observacao = entrada.Observacao
             };
           

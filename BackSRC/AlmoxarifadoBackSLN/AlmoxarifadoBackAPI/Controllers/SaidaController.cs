@@ -37,6 +37,8 @@ namespace AlmoxarifadoBackAPI.Controllers
             {
                 DataSaida = saida.DataSaida,
                 CodigoSecretaria = saida.CodigoSecretaria,
+                CodigoProduto = saida.CodigoProduto,
+                Quantidade = saida.Quantidade,
                 Observacao = saida.Observacao
             };
           

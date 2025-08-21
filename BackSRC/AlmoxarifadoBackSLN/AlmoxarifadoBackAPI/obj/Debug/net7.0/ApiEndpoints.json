@@ -184,6 +184,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "listaProdutosZero",
+    "RelativePath": "listaproZero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.SaidaController",
     "Method": "listaSaida",
     "RelativePath": "listaSaida",
@@ -212,11 +222,21 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoria",
+        "Name": "produto",
         "Type": "AlmoxarifadoBackAPI.DTO.ProdutoDTO",
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "GetRankingProdutos",
+    "RelativePath": "ranking-produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

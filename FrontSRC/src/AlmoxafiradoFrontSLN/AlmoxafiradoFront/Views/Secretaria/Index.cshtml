@@ -9,6 +9,9 @@
         <table class="TableContainerSec">
             <thead class="theadSec">
             <th>
+                Codigo
+            </th>
+            <th>
                 Nome
             </th>
             <th>
@@ -32,6 +35,7 @@
                 @foreach (var item in ViewBag.Secretaria)
                 {
                     <tr>
+                        <td class="tdSec">@item.codigo</td>
                         <td class="tdSec">@item.nome</td>
                         <td class="tdSec">@item.telefone</td>
                         <td class="tdSec">@item.estado</td>

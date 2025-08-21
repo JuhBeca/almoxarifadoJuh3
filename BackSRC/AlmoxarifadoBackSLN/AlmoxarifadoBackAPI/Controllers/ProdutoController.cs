@@ -11,10 +11,14 @@ namespace AlmoxarifadoBackAPI.Controllers
     public class ProdutoController : ControllerBase
     {
         private readonly IProdutoRepositorio _db;
-        public ProdutoController(IProdutoRepositorio db)
+        private readonly IProdutoRepositorio _produtoRepo;
+        private readonly ISaidaRepositorio _saidaRepo;
+        public ProdutoController(IProdutoRepositorio db, IProdutoRepositorio produtoRepo, ISaidaRepositorio saidaRepo)
         {
             _db =db;
-      
+            _produtoRepo = produtoRepo;
+            _saidaRepo = saidaRepo;
+
         }
 
         [HttpGet("/listaprodutos")]
@@ -22,6 +26,51 @@ namespace AlmoxarifadoBackAPI.Controllers
         {
             return Ok(_db.GetAll());
         }
+
+        [HttpGet("/listaproZero")]
+        public IActionResult listaProdutosZero()
+        {
+            return Ok(_db.GetAll().Where(x => x.EstoqueAtual == 0));
+        }
+
+        [HttpGet("/ranking-produtos")]
+        public IActionResult GetRankingProdutos()
+        {
+            var produtos = _produtoRepo.GetAll();  // todos os produtos
+            var saidas = _saidaRepo.GetAll();      // todas as saídas
+
+            var ranking = saidas
+                .GroupBy(s => s.CodigoProduto)
+                .Select(g => new
+                {
+                    CodigoProduto = g.Key,
+                    QuantidadeTotal = g.Sum(s => s.Quantidade),
+                    TotalSaidas = g.Count()
+                })
+                .Join(produtos,
+                      saida => saida.CodigoProduto,
+                      produto => produto.Codigo,
+                      (saida, produto) => new
+                      {
+                          produto.Codigo,
+                          produto.Descricao,
+                          saida.QuantidadeTotal,
+                          saida.TotalSaidas
+                      })
+                .OrderByDescending(x => x.TotalSaidas)
+                .Select((x, index) => new
+                {
+                    Ranking = index + 1,
+                    x.Codigo,
+                    x.Descricao,
+                    x.TotalSaidas,
+                    x.QuantidadeTotal
+                })
+                .Take(10);
+
+            return Ok(ranking);
+        }
+
 
         [HttpPost("/produto")]
         public IActionResult listaProdutos(ProdutoDTO produto)
@@ -47,6 +96,12 @@ namespace AlmoxarifadoBackAPI.Controllers
             return Ok("Cadastro com Sucesso");
         }
 
+        
+        
+        
+        
+
+        
 
 
     }

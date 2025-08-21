@@ -20,12 +20,8 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Categoria\!/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhIVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Entrada/Create.cshtml]
@@ -58,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Produto/ProZero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9aZXJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/manha.cetafest/Documents/GitHub/almoxarifadoJuh3/FrontSRC/src/AlmoxafiradoFrontSLN/AlmoxafiradoFront/Views/Saida/Create.cshtml]
