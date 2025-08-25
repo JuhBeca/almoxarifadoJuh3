@@ -48,7 +48,7 @@ namespace AlmoxafiradoFront.Controllers
             using HttpClient client = new HttpClient();
             try
             {
-                var entradaNova = new SaidaDTO
+                var saidaNova = new SaidaDTO
                 {
                     dataSaida = dataSaida,
                     codigoSecretaria = codigoSecretaria,
@@ -56,9 +56,9 @@ namespace AlmoxafiradoFront.Controllers
                     quantidade = quantidade,
                     observacao = observacao
                 };
-                var entSerializada = JsonSerializer.Serialize<SaidaDTO>(entradaNova);
+                var saiSerializada = JsonSerializer.Serialize<SaidaDTO>(saidaNova);
 
-                var jsonContent = new StringContent(entSerializada, Encoding.UTF8, "application/json");
+                var jsonContent = new StringContent(saiSerializada, Encoding.UTF8, "application/json");
 
                 HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
                 response.EnsureSuccessStatusCode();

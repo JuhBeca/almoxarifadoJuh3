@@ -33,7 +33,7 @@ namespace AlmoxarifadoBackAPI.Controllers
             return Ok(_db.GetAll().Where(x => x.EstoqueAtual == 0));
         }
 
-        [HttpGet("/ranking-produtos")]
+        [HttpGet("/rankPro")]
         public IActionResult GetRankingProdutos()
         {
             var produtos = _produtoRepo.GetAll();  // todos os produtos

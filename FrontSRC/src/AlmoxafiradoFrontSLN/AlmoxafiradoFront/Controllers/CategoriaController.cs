@@ -1,65 +1,66 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
 using System.Text;
+using System.Text.Json;
 
-public class CategoriasController : Controller
+namespace AlmoxafiradoFront.Controllers
 {
-    public IActionResult Index()
+    public class CategoriaController : Controller
     {
-        var url = "https://localhost:44366/lista";
-        List<CategoriaDTO> categorias = new List<CategoriaDTO>();
-        using HttpClient client = new HttpClient();
-        try
+        public IActionResult Index()
         {
-            HttpResponseMessage response = client.GetAsync(url).Result;
-            response.EnsureSuccessStatusCode();
-            string json = response.Content.ReadAsStringAsync().Result;
-            categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
-            ViewBag.Categorias = categorias;
+            var url = "https://localhost:44366/lista";
+            List<CategoriaDTO> categorias = new List<CategoriaDTO>();
+            using HttpClient client = new HttpClient();
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(url).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
+                ViewBag.Categorias = categorias;
 
 
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+
+            return View();
         }
-        catch (Exception)
+
+        [HttpGet]
+        public IActionResult Create()
         {
             return View();
-
         }
-
-        return View();
-    }
-    [HttpGet]
-    public IActionResult Create()
-    {
-        return View();
-    }
-
-    [HttpGet]
-    public IActionResult Cadastrar(string descricao )
-    {
-        var url = "https://localhost:7215/criarCategoria";
-
-        using HttpClient client = new HttpClient();
-        try
+        [HttpPost]
+        public IActionResult Cadastro(string descricao)
         {
-            var CategoriasNovo = new CategoriaDTO
+
+            var url = "https://localhost:44366/criarcategoria";
+            using HttpClient client = new HttpClient();
+            try
             {
-                descricao = descricao,
-                
-            };
-            var CategoriasSerializada = JsonSerializer.Serialize<CategoriaDTO>(CategoriasNovo);
-            var jsonContent = new StringContent(CategoriasSerializada, Encoding.UTF8, "application/json");
+                var categoriaNova = new CategoriaDTO
+                {
+                    descricao = descricao,
+                   
+                };
+                var proSerializada = JsonSerializer.Serialize<CategoriaDTO>(categoriaNova);
 
-            HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
-            response.EnsureSuccessStatusCode();
-        }
+                var jsonContent = new StringContent(proSerializada, Encoding.UTF8, "application/json");
 
-        catch (Exception)
-        {
-
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+                response.EnsureSuccessStatusCode();
+            }
+            catch (Exception)
+            {
+                return View();
+            }
             return RedirectToAction("Index");
         }
-        return RedirectToAction("Index");
     }
 }
-

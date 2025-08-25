@@ -251,7 +251,7 @@
         }
       }
     },
-    "/ranking-produtos": {
+    "/rankPro": {
       "get": {
         "tags": [
           "Produto"

@@ -1,34 +1,27 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Categoria</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<bodycatcre>
+<bodypro>
+    <div class="containerpro">
+        <h1pro>Cadastro de Produto</h1pro>
+        <form action="/Categoria/Cadastro" method="post">
 
-    <div class="containercatcre">
-        <h1catcre>Cadastro de Categoria</h1catcre>
-        <form action="/categoria/Cadastrar" method="post">
-           
 
-            <div class="form-groupcatcre">
-                <label for="descricao">Descrição:</label>
+            <div class="form-grouppro">
+                <labelpro for="descricao">Descrição:</labelpro>
                 <input type="text" id="descricao" name="descricao" required>
             </div>
 
-            <div class="form-buttonscatcre">
-                <button type="submit" class="btncatcre savecatcre">Salvar</button>
-                <button type="button" class="btncatcre backcatcre" onclick="window.history.back();">Voltar</button>
+            <div class="buttonspro">
+                <button type="submit" class="btnpro salvarpro">Salvar</button>
+                <button type="button" class="btnpro voltarpro" onclick="window.location.href='index.html';">Voltar</button>
             </div>
         </form>
     </div>
-
-</bodycatcre>
+</bodypro>
 </html>

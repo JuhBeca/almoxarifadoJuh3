@@ -58,6 +58,31 @@ namespace AlmoxafiradoFront.Controllers
         }
 
         [HttpGet]
+        public IActionResult Rank()
+        {
+            var url = "https://localhost:44366/rankPro";
+            List<RankDTO> produtos = new List<RankDTO>();
+            using HttpClient client = new HttpClient();
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(url).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                produtos = JsonSerializer.Deserialize<List<RankDTO>>(json);
+                ViewBag.Produtos = produtos;
+
+
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult Create()
         {
             return View();

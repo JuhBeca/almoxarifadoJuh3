@@ -232,7 +232,7 @@
   {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
     "Method": "GetRankingProdutos",
-    "RelativePath": "ranking-produtos",
+    "RelativePath": "rankPro",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -203,8 +203,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Models\\Entrada.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T18:13:53.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T18:13:53.069Z"
             },
             {
               "$type": "Document",
@@ -216,8 +215,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Models\\Saida.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T18:25:27.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T18:25:27.442Z"
             },
             {
               "$type": "Document",
@@ -229,8 +227,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\DTO\\EntradaCadastroDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T18:19:57.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T18:19:57.319Z"
             },
             {
               "$type": "Document",
@@ -240,7 +237,7 @@
               "RelativeDocumentMoniker": "AlmoxarifadoBackAPI\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoJuh3\\BackSRC\\AlmoxarifadoBackSLN\\AlmoxarifadoBackAPI\\Controllers\\ProdutoController.cs*",
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Controllers\\ProdutoController.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwCMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T12:30:38.779Z",
               "EditorCaption": ""
@@ -255,8 +252,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\DTO\\SaidaCadastroDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T18:27:31.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T18:27:31.033Z"
             },
             {
               "$type": "Document",
@@ -305,8 +301,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Controllers\\SaidaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T18:20:47.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T18:20:47.831Z"
             },
             {
               "$type": "Document",
@@ -366,8 +361,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\DTO\\EntradaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T18:19:58.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T18:19:58.656Z"
             },
             {
               "$type": "Document",

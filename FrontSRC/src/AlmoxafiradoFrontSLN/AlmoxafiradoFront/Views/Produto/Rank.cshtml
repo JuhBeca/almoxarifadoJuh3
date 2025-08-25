@@ -1,37 +1,21 @@
 ﻿<div id="container" class="containerPro">
-    <div class="container1Pro">
-        <div>
-            <a class="btnPro" href="/Produto/Create"> Novo
-            </a>
-            <a class="btnPro" href="/Produto/ProZero">
-                Fora do estoque
-            </a>
-            <a class="btnPro" href="/Produto/Rank">
-                Top10 + Saidos
-            </a>
-
-        </div>
-    </div>
     <div class="container2Pro">
         <table class="TableContainerPro">
             <thead class="theadPro">
             <th>
-                Código
+                Ranking
+            </th>
+            <th>
+                Codigo
             </th>
             <th>
                 Descrição
             </th>
             <th>
-                Unidade de Medida
+                Total de Saidas
             </th>
             <th>
-               Estoque Atual
-            </th>
-            <th>
-                E Permanente
-            </th>
-            <th>
-                Codigo da Categoria
+                Quantidade total
             </th>
             <th>
                 Opções
@@ -39,15 +23,14 @@
             </thead>
             <tbody>
 
-                @foreach (var item in ViewBag.Produtos )
+                @foreach (var item in ViewBag.Produtos)
                 {
                     <tr>
+                        <td class="tdPro">@item.ranking</td>
                         <td class="tdPro">@item.codigo</td>
                         <td class="tdPro">@item.descricao</td>
-                        <td class="tdPro">@item.unidadeMedida</td>
-                        <td class="tdPro">@item.estoqueAtual</td>
-                        <td class="tdPro">@item.epermanente</td>
-                        <td class="tdPro">@item.codigoCategoria</td>
+                        <td class="tdPro">@item.totalSaidas</td>
+                        <td class="tdPro">@item.quantidadeTotal</td>
                         <td class="tdPro">
                             <div class="IconesContainerPro">
                                 <div class="Icone1Pro">
@@ -78,5 +61,3 @@
         </div>
     </div>
 </div>
-
-
