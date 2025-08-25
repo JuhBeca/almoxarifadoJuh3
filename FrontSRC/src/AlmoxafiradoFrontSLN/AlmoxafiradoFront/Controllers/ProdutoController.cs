@@ -88,7 +88,7 @@ namespace AlmoxafiradoFront.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Cadastro(string descricao, string unidadeMedida, float estoqueAtual, bool epermanente, int codigoCategoria  )
+        public IActionResult Cadastro(string descricao, decimal preco, string unidadeMedida, float estoqueAtual, bool epermanente, int codigoCategoria  )
         {
        
             var url = "https://localhost:44366/criarproduto";
@@ -99,6 +99,7 @@ namespace AlmoxafiradoFront.Controllers
                 {
                     descricao = descricao,
                     unidadeMedida = unidadeMedida,
+                    preco = preco,
                     estoqueAtual = estoqueAtual,
                     epermanente = epermanente,
                     codigoCategoria = codigoCategoria

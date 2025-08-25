@@ -11,10 +11,11 @@ namespace AlmoxarifadoBackAPI.Controllers
     public class SaidaController : ControllerBase
     {
         private readonly ISaidaRepositorio _db;
-        public SaidaController(ISaidaRepositorio db)
+        private readonly IProdutoRepositorio _produtoRepo;
+        public SaidaController(ISaidaRepositorio db, IProdutoRepositorio produtoRepo)
         {
             _db = db;
-
+            _produtoRepo = produtoRepo;
         }
 
         [HttpGet("/listaSaida")]
@@ -30,21 +31,39 @@ namespace AlmoxarifadoBackAPI.Controllers
         }
 
         [HttpPost("/criarSaida")]
-        public IActionResult criarSaida(SaidaCadastroDTO saida)
+        public IActionResult CriarSaida(SaidaCadastroDTO saida)
         {
+            var produto = _produtoRepo.GetById(saida.CodigoProduto);
+
+            if (produto == null)
+            {
+                return NotFound("Produto não encontrado.");
+            }
+
+            var precoUnitario = produto.Preco;
+            var precoTotal = precoUnitario * saida.Quantidade;
 
             var novaSaida = new Saida()
             {
                 DataSaida = saida.DataSaida,
                 CodigoSecretaria = saida.CodigoSecretaria,
                 CodigoProduto = saida.CodigoProduto,
+                PrecoProduto = precoUnitario,
+                PrecoTotal = precoTotal,
                 Quantidade = saida.Quantidade,
                 Observacao = saida.Observacao
             };
-          
+
             _db.Add(novaSaida);
-            return Ok("Cadastro com Sucesso");
+
+            return Ok(new
+            {
+                novaSaida.Codigo,
+                Mensagem = "Saída registrada com sucesso."
+            });
         }
+
+
 
 
 

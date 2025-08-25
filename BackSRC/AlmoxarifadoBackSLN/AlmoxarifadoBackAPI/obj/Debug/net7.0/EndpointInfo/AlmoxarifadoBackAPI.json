@@ -575,6 +575,10 @@
             "type": "string",
             "nullable": true
           },
+          "preco": {
+            "type": "number",
+            "format": "double"
+          },
           "unidadeMedida": {
             "type": "string",
             "nullable": true
@@ -635,6 +639,14 @@
           "codigo": {
             "type": "integer",
             "format": "int32"
+          },
+          "precoProduto": {
+            "type": "number",
+            "format": "double"
+          },
+          "precoTotal": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

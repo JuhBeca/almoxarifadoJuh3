@@ -8,6 +8,9 @@ namespace AlmoxarifadoBackAPI.Repositorio
 
         List<Produto> GetAll();
 
-        
+        Produto GetById(int id);
+
+
+
     }
 }

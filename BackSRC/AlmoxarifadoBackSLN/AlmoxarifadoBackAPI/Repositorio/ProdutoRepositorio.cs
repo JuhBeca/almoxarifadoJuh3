@@ -1,4 +1,5 @@
 ﻿using AlmoxarifadoBackAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace AlmoxarifadoBackAPI.Repositorio
 {
@@ -11,17 +12,20 @@ namespace AlmoxarifadoBackAPI.Repositorio
             _db = db;
         }
 
+        public Produto GetById(int id)
+        {
+            return _db.Produto.FirstOrDefault(p => p.Codigo == id);
+        }
+
         public void Add(Produto obj)
         {
-            
             _db.Produto.Add(obj);
             _db.SaveChanges();
         }
 
-        public List<Produto> GetAll() 
-        { 
-          return _db.Produto.ToList();
+        public List<Produto> GetAll()
+        {
+            return _db.Produto.ToList();
         }
-
     }
 }

@@ -81,7 +81,7 @@
   },
   {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.SaidaController",
-    "Method": "criarSaida",
+    "Method": "CriarSaida",
     "RelativePath": "criarSaida",
     "HttpMethod": "POST",
     "IsController": true,

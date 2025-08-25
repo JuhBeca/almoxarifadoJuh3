@@ -1,76 +1,67 @@
-create database DBAlmoxarifadoXYZ
-go
-use DBAlmoxarifadoXYZ
-go
+CREATE DATABASE DBAlmoxarifadoXYZ;
+GO
+USE DBAlmoxarifadoXYZ;
+GO
 
-create table  Categoria(
-    Codigo int identity(1,1) Primary key,
-    Descricao varchar(100)
+-- Tabela Categoria
+CREATE TABLE Categoria(
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    Descricao VARCHAR(100)
 );
 
+-- Tabela Produto
 CREATE TABLE Produto (
     Codigo INT IDENTITY(1,1) PRIMARY KEY,
     Descricao VARCHAR(100),
+    Preco float,
     UnidadeMedida VARCHAR(100),
-    EstoqueAtual int,
-    Epermanente BIT DEFAULT 0, -- Define 0 como valor padrão
-    CodigoCategoria INT foreign key (CodigoCategoria) references Categoria(Codigo)
+    EstoqueAtual INT,
+    Epermanente BIT DEFAULT 0,
+    CodigoCategoria INT FOREIGN KEY REFERENCES Categoria(Codigo)
+);
+
+-- Tabela Fornecedor
+CREATE TABLE Fornecedor(
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100),
+    Telefone VARCHAR(100),
+    Estado VARCHAR(2),
+    Cidade VARCHAR(100),
+    CNPJ VARCHAR(100)
+);
+
+-- Tabela Secretaria
+CREATE TABLE Secretaria(
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100),
+    Telefone VARCHAR(100),
+    Estado VARCHAR(2),
+    Cidade VARCHAR(100),
+    CNPJ VARCHAR(100)
+);
+
+-- Tabela Entrada
+CREATE TABLE Entrada(
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    DataEntrada DATETIME,
+    CodigoFronecedor INT FOREIGN KEY REFERENCES Fornecedor(Codigo),
+    CodigoProduto INT FOREIGN KEY REFERENCES Produto(Codigo),
+    Quantidade INT,
+    Observacao VARCHAR(100)
+);
+
+-- Tabela Saida com colunas para preço
+CREATE TABLE Saida (
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    DataSaida DATETIME,
+    CodigoSecretaria INT FOREIGN KEY REFERENCES Secretaria(Codigo),
+    CodigoProduto INT FOREIGN KEY REFERENCES Produto(Codigo),
+    PrecoProduto FLOAT,
+    PrecoTotal FLOAT,
+    Quantidade INT,
+    Observacao VARCHAR(100)
 );
 
 
 
 
-
-
-Create table Fornecedor(
-Codigo int identity(1,1) primary key,
-Nome varchar(100),
-Telefone varchar(100),
-Estado varchar(2) ,
-Cidade varchar(100),
-CNPJ varchar(100)
-);
-
-create table Secretaria(
-Codigo int identity(1,1) primary key,
-Nome varchar(100),
-Telefone varchar(100),
-Estado varchar(2),
-Cidade varchar(100),
-CNPJ varchar(100)
-);
-
-Create table Entrada(
-Codigo int identity(1,1) primary key,
-DataEntrada datetime,
-CodigoFronecedor int foreign key (CodigoFronecedor) references Fornecedor(Codigo),
-CodigoProduto int foreign key (CodigoProduto) references Produto(Codigo),
-Quantidade int,
-Observacao varchar(100)
-);
-
-
-create table Saida (
-Codigo int identity(1,1) primary key,
-DataSaida datetime,
-CodigoSecretaria int foreign key (CodigoSecretaria) references Secretaria(Codigo),
-CodigoProduto int foreign key (CodigoProduto) references Produto(Codigo),
-Quantidade int,
-Observacao varchar(100)
-);
-
-
-SELECT TOP 10
-    RANK() OVER (ORDER BY COUNT(s.CodigoProduto) DESC) AS Ranking,
-    p.Codigo AS CodigoProduto,
-    p.Descricao AS NomeProduto,
-    COUNT(s.CodigoProduto) AS TotalSaidas,       -- frequência de saídas
-    SUM(s.Quantidade) AS QuantidadeTotal         -- total de unidades saídas
-FROM 
-    Saida s
-JOIN 
-    Produto p ON s.CodigoProduto = p.Codigo
-GROUP BY 
-    p.Codigo, p.Descricao
-ORDER BY 
-    TotalSaidas DESC;
