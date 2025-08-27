@@ -31,13 +31,18 @@ namespace AlmoxarifadoBackAPI.Controllers
         }
 
         [HttpPost("/criarSaida")]
-        public IActionResult CriarSaida(SaidaCadastroDTO saida)
+        public IActionResult criarSaida(SaidaCadastroDTO saida)
         {
             var produto = _produtoRepo.GetById(saida.CodigoProduto);
 
             if (produto == null)
             {
                 return NotFound("Produto não encontrado.");
+            }
+
+            if (produto.EstoqueAtual < saida.Quantidade)
+            {
+                return BadRequest("Estoque insuficiente para essa saída.");
             }
 
             var precoUnitario = produto.Preco;
@@ -54,14 +59,15 @@ namespace AlmoxarifadoBackAPI.Controllers
                 Observacao = saida.Observacao
             };
 
+            // Atualiza o estoque
+            produto.EstoqueAtual -= saida.Quantidade;
+            _produtoRepo.Update(produto);
+
             _db.Add(novaSaida);
 
-            return Ok(new
-            {
-                novaSaida.Codigo,
-                Mensagem = "Saída registrada com sucesso."
-            });
+            return Ok("Saída registrada e estoque atualizado com sucesso.");
         }
+
 
 
 

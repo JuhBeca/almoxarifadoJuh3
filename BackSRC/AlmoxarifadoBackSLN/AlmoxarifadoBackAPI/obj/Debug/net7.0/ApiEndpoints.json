@@ -81,7 +81,7 @@
   },
   {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.SaidaController",
-    "Method": "CriarSaida",
+    "Method": "criarSaida",
     "RelativePath": "criarSaida",
     "HttpMethod": "POST",
     "IsController": true,
@@ -233,6 +233,16 @@
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
     "Method": "GetRankingProdutos",
     "RelativePath": "rankPro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.SecretariaController",
+    "Method": "GetRankingSecretaria",
+    "RelativePath": "rankSec",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

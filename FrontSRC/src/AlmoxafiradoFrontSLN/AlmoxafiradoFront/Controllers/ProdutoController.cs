@@ -61,14 +61,14 @@ namespace AlmoxafiradoFront.Controllers
         public IActionResult Rank()
         {
             var url = "https://localhost:44366/rankPro";
-            List<RankDTO> produtos = new List<RankDTO>();
+            List<RankProDTO> produtos = new List<RankProDTO>();
             using HttpClient client = new HttpClient();
             try
             {
                 HttpResponseMessage response = client.GetAsync(url).Result;
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
-                produtos = JsonSerializer.Deserialize<List<RankDTO>>(json);
+                produtos = JsonSerializer.Deserialize<List<RankProDTO>>(json);
                 ViewBag.Produtos = produtos;
 
 

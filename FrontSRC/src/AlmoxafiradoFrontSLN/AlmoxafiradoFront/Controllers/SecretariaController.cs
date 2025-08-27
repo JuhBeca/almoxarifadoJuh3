@@ -32,6 +32,30 @@ namespace AlmoxafiradoFront.Controllers
             return View();
         }
 
+        public IActionResult Rank()
+        {
+            var url = "https://localhost:44366/rankSec";
+            List<RankSecDTO> secreta = new List<RankSecDTO>();
+            using HttpClient client = new HttpClient();
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(url).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                secreta = JsonSerializer.Deserialize<List<RankSecDTO>>(json);
+                ViewBag.Secretaria = secreta;
+
+
+            }
+            catch (Exception)
+            {
+                return View();
+
+            }
+
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Cadastro(string nome, string telefone, string estado, string cidade, string cnpj)
         {

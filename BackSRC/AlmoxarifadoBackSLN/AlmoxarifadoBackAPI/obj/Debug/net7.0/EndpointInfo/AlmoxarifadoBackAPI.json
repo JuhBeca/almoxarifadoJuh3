@@ -411,6 +411,18 @@
         }
       }
     },
+    "/rankSec": {
+      "get": {
+        "tags": [
+          "Secretaria"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/Secretaria": {
       "post": {
         "tags": [

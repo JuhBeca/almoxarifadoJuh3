@@ -23,6 +23,12 @@ namespace AlmoxarifadoBackAPI.Repositorio
             _db.SaveChanges();
         }
 
+        public void Update(Produto produto)
+        {
+            _db.Produto.Update(produto);
+            _db.SaveChanges();
+        }
+
         public List<Produto> GetAll()
         {
             return _db.Produto.ToList();
