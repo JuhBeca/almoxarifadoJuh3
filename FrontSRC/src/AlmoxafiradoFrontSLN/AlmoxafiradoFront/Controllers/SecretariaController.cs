@@ -34,23 +34,21 @@ namespace AlmoxafiradoFront.Controllers
 
         public IActionResult Rank()
         {
-            var url = "https://localhost:44366/rankSec";
-            List<RankSecDTO> secreta = new List<RankSecDTO>();
+            var url = "https://localhost:44366/listaSecretarias"; // Corrija para a rota certa
+            List<SecretariaDTO> dep = new List<SecretariaDTO>();
+
             using HttpClient client = new HttpClient();
             try
             {
                 HttpResponseMessage response = client.GetAsync(url).Result;
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
-                secreta = JsonSerializer.Deserialize<List<RankSecDTO>>(json);
-                ViewBag.Secretaria = secreta;
-
-
+                dep = JsonSerializer.Deserialize<List<SecretariaDTO>>(json);
+                ViewBag.departamentos = dep;
             }
-            catch (Exception)
+            catch
             {
-                return View();
-
+                ViewBag.departamentos = new List<SecretariaDTO>();
             }
 
             return View();

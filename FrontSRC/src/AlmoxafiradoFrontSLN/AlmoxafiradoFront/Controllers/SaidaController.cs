@@ -1,5 +1,6 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
@@ -37,13 +38,49 @@ namespace AlmoxafiradoFront.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            // SECRETARIAS
+            var urlSecretaria = "https://localhost:44366/listaSecretaria";
+            List<SecretariaDTO> dep = new List<SecretariaDTO>();
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(urlSecretaria).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                dep = JsonSerializer.Deserialize<List<SecretariaDTO>>(json);
+                ViewBag.departamentos = dep;
+            }
+            catch
+            {
+                ViewBag.departamentos = new List<SecretariaDTO>();
+            }
+
+            // PRODUTOS
+            var urlProdutos = "https://localhost:44366/listaprodutos";
+            List<ProdutoDTO> depP = new List<ProdutoDTO>();
+
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(urlProdutos).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                depP = JsonSerializer.Deserialize<List<ProdutoDTO>>(json);
+                ViewBag.departamentosP = depP;
+            }
+            catch
+            {
+                ViewBag.departamentosP = new List<ProdutoDTO>();
+            }
+
+            // View só é retornada no final, depois que ambas as listas foram preenchidas
             return View();
         }
 
         [HttpPost]
         public IActionResult Cadastro(DateTime dataSaida, int codigoSecretaria, int codigoProduto, int quantidade, string observacao)
         {
-
+            
             var url = "https://localhost:44366/criarSaida";
             using HttpClient client = new HttpClient();
             try
@@ -59,15 +96,29 @@ namespace AlmoxafiradoFront.Controllers
                 var saiSerializada = JsonSerializer.Serialize<SaidaDTO>(saidaNova);
 
                 var jsonContent = new StringContent(saiSerializada, Encoding.UTF8, "application/json");
-
                 HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
-                response.EnsureSuccessStatusCode();
+
+                // 👇 Aqui tratamos erro vindo da API (como 404 ou 400)
+                if (!response.IsSuccessStatusCode)
+                {
+                    var mensagemErro = response.Content.ReadAsStringAsync().Result;
+
+                    // 👇 Adiciona o erro para mostrar na tela
+                    ModelState.AddModelError(string.Empty, mensagemErro);
+
+                    return View("Create"); // Volta para a tela de cadastro
+                }
+
+                return RedirectToAction("Index");
             }
-            catch (Exception)
+            catch
             {
-                return View();
+                ModelState.AddModelError(string.Empty, "Erro ao conectar à API.");
+                return View("Create");
             }
-            return RedirectToAction("Index");
+
+
+            
         }
     }
 }

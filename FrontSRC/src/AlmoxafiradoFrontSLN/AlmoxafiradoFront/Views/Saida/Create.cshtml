@@ -1,8 +1,14 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@using AlmoxafiradoFront.DTO
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var erro in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@erro.ErrorMessage</p>
+        }
+    </div>
 }
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,13 +30,32 @@
             </div>
 
             <div class="form-groupcatcre">
-                <label for="codigoSecretaria">Codigo da Secretaria:</label>
-                <input type="number" id="codigoSecretaria" name="codigoSecretaria" required>
+                <label for="codigoSecretaria">Secretaria:</label>
+                <select id="codigoSecretaria" name="codigoSecretaria" required>
+                    <option value="">Selecione a secretaria</option>
+                    @if (ViewBag.departamentos != null)
+                    {
+                        foreach (var dep in (List <SecretariaDTO>)ViewBag.departamentos)
+                        {
+                            <option value="@dep.codigo">@dep.nome</option>
+                        }
+                    }
+                </select>
             </div>
 
+
             <div class="form-groupcatcre">
-                <label for="codigoProduto">Codigo do Produto:</label>
-                <input type="number" id="codigoProduto" name="codigoProduto" required>
+                <label for="codigoProduto">Produto:</label>
+                <select id="codigoProduto" name="codigoProduto" required>
+                    <option value="">Selecione o produto</option>
+                    @if (ViewBag.departamentosP != null)
+                    {
+                        foreach (var depP in (List<ProdutoDTO>)ViewBag.departamentosP)
+                        {
+                            <option value="@depP.codigo">@depP.descricao</option>
+                        }
+                    }
+                </select>
             </div>
 
             <div class="form-groupcatcre">
