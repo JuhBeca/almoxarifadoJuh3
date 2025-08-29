@@ -33,9 +33,9 @@
                 <label for="codigoSecretaria">Secretaria:</label>
                 <select id="codigoSecretaria" name="codigoSecretaria" required>
                     <option value="">Selecione a secretaria</option>
-                    @if (ViewBag.departamentos != null)
+                    @if (ViewBag.departamentosS != null)
                     {
-                        foreach (var dep in (List <SecretariaDTO>)ViewBag.departamentos)
+                        foreach (var dep in (List <SecretariaDTO>)ViewBag.departamentosS)
                         {
                             <option value="@dep.codigo">@dep.nome</option>
                         }

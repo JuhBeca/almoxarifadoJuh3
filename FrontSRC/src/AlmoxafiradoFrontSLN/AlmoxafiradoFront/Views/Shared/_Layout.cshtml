@@ -20,34 +20,16 @@
 </head>
 <body>
     <div class="cabecalho">
-        <div class="menu">
-            <a class="itemmenu" href="/Categoria">
-                <span class="itemtexto">Categoria</span>
-            </a>
-            <a class="itemmenu" href="/Produto">
-                <span class="itemtexto">Produto</span>
-            </a>
-            <a class="itemmenu" href="/Entrada">
-                <span class="itemtexto">Entrada</span>
-            </a>
-            <a class="itemmenu" href="/Saida">
-                <span class="itemtexto">Saída</span>
-            </a>
-            <a class="itemmenu" href="/Fornecedor">
-                <span class="itemtexto">Fornecedor</span>
-            </a>
-                <a class="itemmenu" href="/Secretaria">
-                    <span class="itemtexto">Secretaria</span>
-                </a>
-            </a>
-           
-            </div>
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo" height="35" />
+            <span class="nome-empresa">Almoxarifado Central</span>
         </div>
         <div class="perfil">
             <span class="pessoa">LuizEVE</span>
-            <span class="loginlogoff">Logoff</span>
+            <button class="loginlogoff" onclick="location.href='/Account/Logout'">Logoff</button>
         </div>
     </div>
+
     <div class="pagina">
         <div class="conteudo">
                @RenderBody()

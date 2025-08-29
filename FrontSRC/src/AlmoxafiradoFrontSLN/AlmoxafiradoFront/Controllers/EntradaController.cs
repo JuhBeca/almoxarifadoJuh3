@@ -34,6 +34,42 @@ namespace AlmoxafiradoFront.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            // FORNECEDORES
+            var urlSecretaria = "https://localhost:44366/listaFornecedor";
+            List<FornecedorDTO> dep = new List<FornecedorDTO>();
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(urlSecretaria).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                dep = JsonSerializer.Deserialize<List<FornecedorDTO>>(json);
+                ViewBag.departamentosF = dep;
+            }
+            catch
+            {
+                ViewBag.departamentosF = new List<FornecedorDTO>();
+            }
+
+            // PRODUTOS
+            var urlProdutos = "https://localhost:44366/listaprodutos";
+            List<ProdutoDTO> depP = new List<ProdutoDTO>();
+
+            try
+            {
+                HttpResponseMessage response = client.GetAsync(urlProdutos).Result;
+                response.EnsureSuccessStatusCode();
+                string json = response.Content.ReadAsStringAsync().Result;
+                depP = JsonSerializer.Deserialize<List<ProdutoDTO>>(json);
+                ViewBag.departamentosP = depP;
+            }
+            catch
+            {
+                ViewBag.departamentosP = new List<ProdutoDTO>();
+            }
+
+
             return View();
         }
 

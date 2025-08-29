@@ -49,11 +49,11 @@ namespace AlmoxafiradoFront.Controllers
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
                 dep = JsonSerializer.Deserialize<List<SecretariaDTO>>(json);
-                ViewBag.departamentos = dep;
+                ViewBag.departamentosS = dep;
             }
             catch
             {
-                ViewBag.departamentos = new List<SecretariaDTO>();
+                ViewBag.departamentosS = new List<SecretariaDTO>();
             }
 
             // PRODUTOS
@@ -73,7 +73,7 @@ namespace AlmoxafiradoFront.Controllers
                 ViewBag.departamentosP = new List<ProdutoDTO>();
             }
 
-            // View só é retornada no final, depois que ambas as listas foram preenchidas
+            
             return View();
         }
 
