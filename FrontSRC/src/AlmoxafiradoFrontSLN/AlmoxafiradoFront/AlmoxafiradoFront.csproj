@@ -28,4 +28,9 @@
     <Compile Remove="DTO\ProdutosDTO .cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\Estoque.css" />
+    <Content Remove="wwwroot\css\produtos.css" />
+  </ItemGroup>
+
 </Project>

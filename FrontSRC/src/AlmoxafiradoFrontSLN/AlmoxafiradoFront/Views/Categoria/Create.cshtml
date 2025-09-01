@@ -1,27 +1,16 @@
-﻿<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Categoria</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<bodypro>
-    <div class="containerpro">
-        <h1pro>Cadastro de Produto</h1pro>
+﻿
+
+    <div class="containercatcre">
+        <h1 class="h1catcre">Cadastro de Produto</h1>
         <form action="/Categoria/Cadastro" method="post">
-
-
-            <div class="form-grouppro">
-                <labelpro for="descricao">Descrição:</labelpro>
-                <input type="text" id="descricao" name="descricao" required>
+            <div class="form-groupcatcre">
+                <label class="labelcatcre" for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao" required />
             </div>
-
-            <div class="buttonspro">
-                <button type="submit" class="btnpro salvarpro">Salvar</button>
-                <button type="button" class="btnpro voltarpro" onclick="window.location.href='index.html';">Voltar</button>
+            <div class="form-buttonscatcre">
+                <button type="submit" class="btncatcre savecatcre">Salvar</button>
+                <button type="button" class="btncatcre backcatcre" onclick="window.location.href='/Categoria'">Voltar</button>
             </div>
         </form>
     </div>
-</bodypro>
-</html>
+

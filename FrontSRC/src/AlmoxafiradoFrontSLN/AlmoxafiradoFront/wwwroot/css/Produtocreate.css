@@ -1,82 +1,77 @@
-﻿
-bodypro {
-    font-family: Arial, sans-serif;
+﻿.containerpro {
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
-}
-
-.containerpro {
-    background-color: #fff;
-    padding: 20px;
+    padding: 30px 40px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 10px solid #3d9090;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
+    margin: 50px auto 0 auto; /* margem superior de 50px e centralização horizontal */
 }
 
-h1pro {
+.h1pro {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #3d9090;
+    font-weight: 700;
+    font-size: 28px;
 }
 
 .form-grouppro {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-labelpro {
-    font-weight: bold;
-    margin-bottom: 5px;
+.labelpro {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
     display: block;
+    color: #333;
 }
 
-inputpro, select {
+input[type="text"] {
     width: 100%;
-    padding: 10px;
+    padding: 10px 12px;
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
 }
 
-    inputpro[type="number"] {
-        -moz-appearance: textfield;
+    input[type="text"]:focus {
+        border-color: #3d9090;
+        outline: none;
     }
 
-        inputpro[type="number"]::-webkit-outer-spin-button,
-        inputpro[type="number"]::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-        }
-
-.buttonspro {
+.form-buttonspro {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
 .btnpro {
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
 }
 
-.salvarpro {
-    background-color: #4CAF50;
+.savepro {
+    background-color: #3d9090;
     color: white;
 }
 
-    .salvarpro:hover {
-        background-color: #45a049;
+    .savepro:hover {
+        background-color: #2a6262;
     }
 
-.voltarpro {
+.backpro {
     background-color: #f44336;
     color: white;
 }
 
-    .voltarpro:hover {
-        background-color: #e53935;
+    .backpro:hover {
+        background-color: #ba3124;
     }

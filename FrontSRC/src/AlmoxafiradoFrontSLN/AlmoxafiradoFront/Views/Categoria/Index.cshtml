@@ -1,14 +1,14 @@
-﻿<div id="container" class="containerPro">
-    <div class="container1Pro">
+﻿<div id="container" class="containerCategoria">
+    <div class="container1Categoria">
         <div>
-            <a class="btnPro" href="/Categoria/Create">
+            <a class="btnCategoria" href="/Categoria/Create">
                 Novo
             </a>
         </div>
     </div>
-    <div class="container2Pro">
-        <table class="TableContainerPro">
-            <thead class="theadPro">
+    <div class="container2Categoria">
+        <table class="TableContainerCategoria">
+            <thead class="theadCategoria">
             <th>
                 Código
             </th>
@@ -24,16 +24,16 @@
                 @foreach (var item in ViewBag.Categorias)
                 {
                     <tr>
-                        <td class="tdPro">@item.codigo</td>
-                        <td class="tdPro">@item.descricao</td>
-                        <td class="tdPro">
-                            <div class="IconesContainerPro">
-                                <div class="Icone1Pro">
+                        <td class="tdCategoria">@item.codigo</td>
+                        <td class="tdCategoria">@item.descricao</td>
+                        <td class="tdCategoria">
+                            <div class="IconesContainerCategoria">
+                                <div class="Icone1Categoria">
                                     <a class="trash-btn">
                                         <div class="fas fa-trash"></div>
                                     </a>
                                 </div>
-                                <div class="Icone2Pro">
+                                <div class="Icone2Categoria">
                                     <a class="edit-button">
                                         <div class="fas fa-edit"></div>
                                     </a>
@@ -48,9 +48,9 @@
 
         </table>
     </div>
-    <div class="container3Pro">
+    <div class="containerCategoria">
         <div>
-            <a class="btnPro " href="/">
+            <a class="btnCategoria " href="/">
                 Voltar
             </a>
         </div>
