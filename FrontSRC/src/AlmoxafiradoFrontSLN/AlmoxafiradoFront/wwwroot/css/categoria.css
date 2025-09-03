@@ -49,6 +49,21 @@
     background-color: cyan !important;
 }
 
+.btnCategoriaV {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btnCategoriaV:hover {
+        background-color: #ff6a00;
+    }
+
 /* Tabela */
 .TableContainerCategoria {
     width: 100%;

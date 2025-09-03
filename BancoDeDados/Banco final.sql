@@ -3,6 +3,16 @@ GO
 USE DBAlmoxarifadoXYZ;
 GO
 
+
+CREATE TABLE Usuarios (
+    Codigo INT IDENTITY(1,1) PRIMARY KEY,
+    Nome VARCHAR(100),
+    Email VARCHAR(100) UNIQUE,
+    NomeUsuario VARCHAR(50) UNIQUE,
+    Senha VARCHAR(100)
+);
+
+
 -- Tabela Categoria
 CREATE TABLE Categoria(
     Codigo INT IDENTITY(1,1) PRIMARY KEY,

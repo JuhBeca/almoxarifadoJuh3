@@ -1,33 +1,14 @@
-﻿@{
-    ViewData["Title"] = "Painel do Almoxarifado";
-}
-
-
-<div class="painel-home">
-    <h1 class="display-4">Bem-vindo ao Almoxarifado</h1>
-    <p class="subtitulo">Selecione uma das opções abaixo para começar</p>
-
-    <div class="atalhos">
-        <a class="card-atalho" href="/Categoria"><i class="fas fa-tags"></i><span>Categoria</span></a>
-        <a class="card-atalho" href="/Produto"><i class="fas fa-box"></i><span>Produto</span></a>
-        <a class="card-atalho" href="/Entrada"><i class="fas fa-arrow-down"></i><span>Entrada</span></a>
-        <a class="card-atalho" href="/Saida"><i class="fas fa-arrow-up"></i><span>Saída</span></a>
-        <a class="card-atalho" href="/Fornecedor"><i class="fas fa-truck"></i><span>Fornecedor</span></a>
-        <a class="card-atalho" href="/Secretaria"><i class="fas fa-building"></i><span>Secretaria</span></a>
-    </div>
-
-    <div class="indicadores">
-        <div class="indicador">
-            <h4>Itens Baixo Estoque</h4>
-            <p>12 produtos abaixo do nível mínimo</p>
-        </div>
-        <div class="indicador">
-            <h4>Movimentações Hoje</h4>
-            <p>Entradas: 5 | Saídas: 7</p>
-        </div>
-        <div class="indicador">
-            <h4>Estoque Total</h4>
-            <p>+350 itens em estoque</p>
+﻿
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Nome de Usuário ou Email" required>
+            <input type="password" name="password" placeholder="Senha" required>
+            <input type="submit" class="loginlogoff" value="Entrar">
+        </form>
+        <div class="link">
+            <a href="#">Criar conta</a> /
+            <a href="#">Esqueceu a senha?</a>
         </div>
     </div>
-</div>
+

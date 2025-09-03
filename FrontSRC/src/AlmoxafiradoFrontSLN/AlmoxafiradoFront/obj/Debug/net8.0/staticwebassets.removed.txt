@@ -1,2 +1,0 @@
-C:\Users\manha.cetafest\Documents\GitHub\almoxarifadoJuh3\FrontSRC\src\AlmoxafiradoFrontSLN\AlmoxafiradoFront\wwwroot\css\Estoque.css
-C:\Users\manha.cetafest\Documents\GitHub\almoxarifadoJuh3\FrontSRC\src\AlmoxafiradoFrontSLN\AlmoxafiradoFront\wwwroot\css\produtos.css
