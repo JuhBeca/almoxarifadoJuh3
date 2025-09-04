@@ -1,6 +1,6 @@
 ﻿namespace AlmoxarifadoBackAPI.Models
 {
-    public class Login
+    public class Usuarios
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }

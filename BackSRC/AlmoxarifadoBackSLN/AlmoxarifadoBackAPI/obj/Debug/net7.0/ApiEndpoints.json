@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/Usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "AlmoxarifadoBackAPI.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.CategoriaController",
     "Method": "listaCategorias",
     "RelativePath": "categoria",
@@ -112,6 +128,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.UsuariosController",
+    "Method": "criarUsuarios",
+    "RelativePath": "criarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarios",
+        "Type": "AlmoxarifadoBackAPI.DTO.UsuariosCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.EntradaController",
     "Method": "listaEntrada",
     "RelativePath": "Entrada",
@@ -214,6 +246,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.UsuariosController",
+    "Method": "listaUsuarioss",
+    "RelativePath": "listaUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
     "Method": "listaProdutos",
     "RelativePath": "produto",
@@ -276,6 +318,22 @@
       {
         "Name": "secretaria",
         "Type": "AlmoxarifadoBackAPI.DTO.SecretariaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.UsuariosController",
+    "Method": "listaUsuarioss",
+    "RelativePath": "Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarios",
+        "Type": "AlmoxarifadoBackAPI.DTO.UsuariosDTO",
         "IsRequired": true
       }
     ],

@@ -1,6 +1,6 @@
 ﻿namespace AlmoxarifadoBackAPI.DTO
 {
-    public class LoginCadastroDTO
+    public class UsuariosCadastroDTO
     {
         public string Nome { get; set; }
         public string Email { get; set; }

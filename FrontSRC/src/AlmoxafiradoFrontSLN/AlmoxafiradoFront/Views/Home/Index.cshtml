@@ -1,14 +1,24 @@
 ﻿
+    @model AlmoxafiradoFront.Models.LoginViewModel
+
+<div class="centralizado">
     <div class="login-container">
         <h2>Login</h2>
-        <form action="#" method="post">
-            <input type="text" name="username" placeholder="Nome de Usuário ou Email" required>
-            <input type="password" name="password" placeholder="Senha" required>
-            <input type="submit" class="loginlogoff" value="Entrar">
+
+        @if (ViewBag.Erro != null)
+        {
+            <div class="alert alert-danger">@ViewBag.Erro</div>
+        }
+
+        <form asp-action="Login" method="post">
+            <input type="text" asp-for="NomeUsuario" placeholder="Nome de Usuário ou Email" required />
+            <input type="password" asp-for="Senha" placeholder="Senha" required />
+            <input type="submit" class="loginlogoff" value="Entrar" />
         </form>
+
         <div class="link">
             <a href="#">Criar conta</a> /
             <a href="#">Esqueceu a senha?</a>
         </div>
     </div>
-
+</div>

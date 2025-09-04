@@ -2,6 +2,7 @@
 {
     public class LoginDTO
     {
-        public int Codigo { get; set; }
+            public string NomeUsuario { get; set; }
+            public string Senha { get; set; }
     }
 }

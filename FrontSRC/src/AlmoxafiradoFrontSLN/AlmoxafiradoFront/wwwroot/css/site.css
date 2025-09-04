@@ -1,4 +1,16 @@
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo {
+    flex-grow: 1; /* para crescer e ocupar o espaço disponível */
+    width: 100%;
+}
+
+.centralizado {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -8,6 +20,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.tela-cheia {
+    height: 100vh; /* altura total da viewport */
+    width: 100vw; /* largura total da viewport */
+    display: flex;
+    flex-direction: column; /* ou row, depende do layout */
+    /* para o conteúdo crescer e preencher */
+    justify-content: stretch;
+    align-items: stretch;
+    background-color: #f4f4f4;
+}
+
 
 .cabecalho {
     display: flex;
