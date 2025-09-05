@@ -1,4 +1,17 @@
-﻿<div id="container" class="containerPro">
+﻿<div class="cabecalho">
+    <div class="logo">
+        <img src="/images/logo.png" alt="Logo" height="35" />
+        <span class="nome-empresa">Almoxarifado Central</span>
+    </div>
+    <div class="perfil">
+        @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+        <span class="pessoa">@HttpContextAccessor.HttpContext.Session.GetString("UsuarioLogado")</span>
+        <button class="loginlogoff" onclick="location.href='/'">Logoff</button>
+    </div>
+</div>
+
+<div id="container" class="containerPro">
     <div class="container1Pro">
         <div>
             <a class="btnPro" href="/Produto/Create">
