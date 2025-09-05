@@ -4,6 +4,7 @@ using System.Text.Json;
 using System.Text;
 using AlmoxafiradoFront.Models;
 using Microsoft.AspNetCore.Mvc;
+using AlmoxafiradoFront.DTO;
 
 namespace AlmoxafiradoFront.Controllers
 {
@@ -28,6 +29,41 @@ namespace AlmoxafiradoFront.Controllers
         {
             ViewBag.BodyClass = "tela-cheia";
             return View();
+        }
+
+        public IActionResult Create()
+        {
+            ViewBag.BodyClass = "tela-cheia";
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastro(string nome, string email, string nomeUsuario, string senha)
+        {
+
+            var url = "https://localhost:44366/criarUsuario";
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var usuarioNovo = new UsuariosDTO
+                {
+                    nome = nome,
+                    email = email,
+                    nomeUsuario = nomeUsuario,
+                    senha = senha
+                };
+                var proSerializada = JsonSerializer.Serialize<UsuariosDTO>(usuarioNovo);
+
+                var jsonContent = new StringContent(proSerializada, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
+                response.EnsureSuccessStatusCode();
+            }
+            catch (Exception)
+            {
+                return View();
+            }
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()
@@ -64,7 +100,7 @@ namespace AlmoxafiradoFront.Controllers
                     PropertyNameCaseInsensitive = true
                 });
 
-                TempData["NomeUsuario"] = loginResult.nome;
+                HttpContext.Session.SetString("UsuarioLogado", loginResult.nome);
 
                 return RedirectToAction("Dashboard");
             }

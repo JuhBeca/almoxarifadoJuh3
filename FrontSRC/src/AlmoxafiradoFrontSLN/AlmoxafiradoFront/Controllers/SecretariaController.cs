@@ -34,8 +34,8 @@ namespace AlmoxafiradoFront.Controllers
 
         public IActionResult Rank()
         {
-            var url = "https://localhost:44366/listaSecretarias"; // Corrija para a rota certa
-            List<SecretariaDTO> dep = new List<SecretariaDTO>();
+            var url = "https://localhost:44366/rankSec"; // Corrija para a rota certa
+            List<RankSecDTO> dep = new List<RankSecDTO>();
 
             using HttpClient client = new HttpClient();
             try
@@ -43,12 +43,12 @@ namespace AlmoxafiradoFront.Controllers
                 HttpResponseMessage response = client.GetAsync(url).Result;
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
-                dep = JsonSerializer.Deserialize<List<SecretariaDTO>>(json);
-                ViewBag.departamentos = dep;
+                dep = JsonSerializer.Deserialize<List<RankSecDTO>>(json);
+                ViewBag.Secretaria = dep;
             }
             catch
             {
-                ViewBag.departamentos = new List<SecretariaDTO>();
+                ViewBag.Secretaria = new List<SecretariaDTO>();
             }
 
             return View();

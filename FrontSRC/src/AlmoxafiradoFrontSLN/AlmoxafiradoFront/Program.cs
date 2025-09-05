@@ -1,11 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-
-// Adicione esta linha para registrar o HttpClient
 builder.Services.AddHttpClient();
+builder.Services.AddHttpContextAccessor();
+
+// ✅ Adiciona suporte à sessão
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -19,7 +20,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-
+// ✅ Ativa o middleware de sessão
+app.UseSession();
 
 app.UseRouting();
 

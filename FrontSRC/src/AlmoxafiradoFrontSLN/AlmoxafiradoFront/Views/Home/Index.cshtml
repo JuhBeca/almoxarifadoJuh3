@@ -13,11 +13,11 @@
         <form asp-action="Login" method="post">
             <input type="text" asp-for="NomeUsuario" placeholder="Nome de Usuário ou Email" required />
             <input type="password" asp-for="Senha" placeholder="Senha" required />
-            <input type="submit" class="loginlogoff" value="Entrar" />
+            <input type="submit" class="login" value="Entrar" />
         </form>
 
         <div class="link">
-            <a href="#">Criar conta</a> /
+            <a href="/Home/Create">Criar conta</a> /
             <a href="#">Esqueceu a senha?</a>
         </div>
     </div>

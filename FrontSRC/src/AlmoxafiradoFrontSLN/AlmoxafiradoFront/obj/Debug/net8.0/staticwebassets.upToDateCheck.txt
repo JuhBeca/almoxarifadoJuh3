@@ -1,3 +1,4 @@
+wwwroot\css\Cadastro.css
 wwwroot\css\categoria.css
 wwwroot\css\categoriacreate.css
 wwwroot\css\entrada.css

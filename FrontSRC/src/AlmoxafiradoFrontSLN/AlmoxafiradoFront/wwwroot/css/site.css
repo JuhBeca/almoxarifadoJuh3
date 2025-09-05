@@ -3,11 +3,13 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: Arial, sans-serif;
 }
 
 .conteudo {
     flex-grow: 1; /* para crescer e ocupar o espaço disponível */
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .centralizado {
@@ -22,18 +24,22 @@ html, body {
 }
 
 .tela-cheia {
-    height: 100vh; /* altura total da viewport */
-    width: 100vw; /* largura total da viewport */
     display: flex;
-    flex-direction: column; /* ou row, depende do layout */
-    /* para o conteúdo crescer e preencher */
-    justify-content: stretch;
-    align-items: stretch;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
     background-color: #f4f4f4;
 }
 
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 .cabecalho {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +65,7 @@ html, body {
 }
 
 .loginlogoff {
-    background-color: #81110b;
+    background-color: #ff0000;
     padding: 6px 12px;
     border-radius: 8px;
     cursor: pointer;
@@ -69,14 +75,18 @@ html, body {
 }
 
     .loginlogoff:hover {
-        background-color: yellow;
+        background-color: #ff6a00;
         color: black;
     }
 
-
 .painel-home {
+    flex: 1;
     text-align: center;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .subtitulo {
